@@ -1,5 +1,5 @@
 local modinfo = {
-	name			= 'Spring: 1944 jalsbalance',
+	name			= 'Spring: 1944 equilibrio',
 	shortName		= 'S44',
 	version			= 'dev-$VERSION',
 	game			= 'Spring: 1944',

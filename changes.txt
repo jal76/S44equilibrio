@@ -1,0 +1,14 @@
+
+-cheaper Tiger & Tiger ii
+-long 75mm and 88mm reload 1sec faster
+-Tiger II front armour has 20mm more
+-AA ranges reduced by 25%
+- Mortar platoons cost is based on 2000 command + HP (single unit)
+- airbombs target borders of units
+- IS2 and T34_85 are cheaper
+- Valentine is cheaper
+- Jagdpanther and JagdpanzerIV are cheaper
+- 10HP more for JPN infantry
+- USM10Wolverine and GBRAchilles cost 25% more
+- cheaper US Flamethrowerplatoon
+
