@@ -1,14 +1,67 @@
 
--cheaper Tiger & Tiger ii
 -long 75mm and 88mm reload 1sec faster
--Tiger II front armour has 20mm more
 -AA ranges reduced by 25%
 - Mortar platoons cost is based on 2000 command + HP (single unit)
 - airbombs target borders of units
-- IS2 and T34_85 are cheaper
-- Valentine is cheaper
-- Jagdpanther and JagdpanzerIV are cheaper
-- 10HP more for JPN infantry
-- USM10Wolverine and GBRAchilles cost 25% more
 - cheaper US Flamethrowerplatoon
+Unitdef changes:
+--------------------
+GBRM10Achilles:
+buildCostMetal: 2400 --> 3000 (+20.00%)
+buildTime: 2400 --> 3000 (+20.00%)
+--------------------
+GERJagdPanther:
+buildCostMetal: 9100 --> 8100 (-12.35%)
+buildTime: 9100 --> 8100 (-12.35%)
+--------------------
+GERJagdpanzerIV:
+buildCostMetal: 4500 --> 4000 (-12.50%)
+buildTime: 4500 --> 4000 (-12.50%)
+--------------------
+GERPanther:
+buildCostMetal: 5895 --> 5500 (-7.18%)
+buildTime: 5985 --> 5500 (-8.82%)
+--------------------
+GERTiger:
+buildCostMetal: 9770 --> 7770 (-25.74%)
+buildTime: 9770 --> 7770 (-25.74%)
+--------------------
+GERTigerII:
+armor_front: 154 --> 174 (+11.49%)
+buildCostMetal: 15750 --> 13750 (-14.55%)
+buildTime: 15750 --> 13750 (-14.55%)
+--------------------
+JPNRifle:
+maxDamage: 80 --> 90 (+11.11%)
+--------------------
+JPNType100SMG:
+maxDamage: 80 --> 90 (+11.11%)
+--------------------
+JPNType3AT:
+maxDamage: 65 --> 90 (+27.78%)
+--------------------
+JPNType4AT:
+maxDamage: 100 --> 90 (-11.11%)
+--------------------
+JPNType92HMG:
+maxDamage: 80 --> 90 (+11.11%)
+--------------------
+JPNType99LMG:
+maxDamage: 80 --> 90 (+11.11%)
+--------------------
+RUSIS2:
+buildCostMetal: 11400 --> 9400 (-21.28%)
+buildTime: 11400 --> 9400 (-21.28%)
+--------------------
+RUST3485:
+buildCostMetal: 4110 --> 3610 (-13.85%)
+buildTime: 4110 --> 3610 (-13.85%)
+--------------------
+RUSValentine:
+buildCostMetal: 2000 --> 1800 (-11.11%)
+buildTime: 2000 --> 1800 (-11.11%)
+--------------------
+USM10Wolverine:
+buildCostMetal: 1900 --> 2375 (+20.00%)
+buildTime: 1900 --> 2375 (+20.00%)
 
