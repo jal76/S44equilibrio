@@ -22,7 +22,7 @@
     enginesoundnr=12;
     feartarget=1;
     lowammolevel=1;
-    maxammo=36;
+    maxammo=16;
     proptexture=prop3.tga;
     weaponcost=-1;
     weaponswithammo=2;
@@ -60,7 +60,7 @@
     explosionGenerator3=custom:MG_SHELLCASINGS;
   }
   showNanoFrame=0;
-  Side=GBR;
+  Side=GER;
   sightDistance=200;
   smoothAnim=1;
   stealth=1;
@@ -100,7 +100,6 @@
   maxAngleDif6=25;
   onlyTargetCategory6=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir6=0 0 1;
-  weaponSlaveTo6=1;
 
   weapon7=Small_Tracer;
 
