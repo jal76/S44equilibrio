@@ -4,7 +4,7 @@
 local MediumGunClass = Weapon:New{
   accuracy           = 100,
   avoidFeature		 = false,
-  collisionSize      = 4,
+  collisionSize      = 0.75,
   impulseFactor      = 0,
   intensity          = 0.25,
   leadBonus          = 0.5,

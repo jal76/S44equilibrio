@@ -3,7 +3,7 @@
 -- LightGun Base Class
 local LightGunClass = Weapon:New{
   accuracy           = 100,
-  collisionSize      = 4,
+  collisionSize      = 0.4,
   impulseFactor      = 0,
   intensity          = 0.25,
   leadBonus          = 0.5,
@@ -55,7 +55,7 @@ local LightGunAPClass = Weapon:New{
 
 -- HEAT Round Class
 local LightGunHEATClass = Weapon:New{
-  collisionSize      = 3,
+  collisionSize      = 0.5,
   edgeEffectiveness  = 0.2,
   explosionGenerator = [[custom:EP_medium]],
   explosionSpeed     = 30, -- needed?
