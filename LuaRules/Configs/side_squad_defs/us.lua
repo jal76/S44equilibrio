@@ -157,7 +157,7 @@ local usDefs = {
 		description = "4 x Flamethrower: Specialized Assault Infantry",
 		buildCostMetal = 600,
 		buildPic = "usgiflamethrower.png",
-		buildTime = 800,
+		buildTime = 600,
 		side = "US",
 	},
 
