@@ -1,0 +1,76 @@
+local itaSorties = {
+	ita_sortie_recon = {
+		members = {
+			"itaro37",
+		},
+		delay = 15,
+		name = "Recon Sortie",
+		description = "1 x Ro.37",
+		buildCostMetal = 1000,
+		buildPic = "itaro37bis.png",
+		buildTime = 1000,
+		side = "ita",
+	},
+	ita_sortie_attack = {
+		members = {
+			"itamc200",
+			"itamc200",
+		},
+		weight = 1,
+		delay = 30,
+		name = "Ground-Attack Sortie",
+		description = "2 x Macchi C 200 armed with anti-tank Bomblets",
+		buildCostMetal = 4500,
+		buildPic = "itamc200.png",
+		buildTime = 4500,
+		side = "ita",
+	},
+	ita_sortie_fighter = {
+		members = {
+			"itareggiane2005",
+			"itareggiane2005",
+			"itareggiane2005",
+			"itareggiane2005",
+		},
+		weight = 1,
+		delay = 30,
+		name = "Air Superiority Fighter Sortie",
+		description = "4 x Reggiane Re.2005",
+		buildCostMetal = 4400,
+		buildPic = "itare2005.png",
+		buildTime = 4400,
+		side = "ita",
+	},
+	ita_sortie_interceptor = {
+		members = {
+			"itamc202",
+			"itamc202",
+			"itamc202",
+			"itamc202",
+		},
+		weight = 1,
+		delay = 15,
+		name = "Interceptor Sortie",
+		description = "4 x MC.202",
+		buildCostMetal = 3800,
+		buildPic = "ITAMC202.png",
+		buildTime = 3800,
+		side = "ita",
+	},
+	ita_sortie_fighter_bomber = {
+		members = {
+			"itamc205",
+			"itamc205",
+		},
+		delay = 45,
+		weight = 1,
+		name = "Fighter-Bomber Sortie",
+		description = "2 x MC.205",
+		buildCostMetal = 6750,
+		buildPic = "itamc205.png",
+		buildTime = 6750,
+		side = "ita",
+	},
+}
+
+return itaSorties

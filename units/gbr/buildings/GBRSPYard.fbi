@@ -1,7 +1,7 @@
 [unitinfo] {
   unitname=GBRSPYard;
   name=Self-Propelled Gun Yard;
-  description=Self Propelled Gun Production Facility;
+  description=Tank Destroyer & Self-Propelled Artillery Yard;
   buildCostEnergy=0;
   buildCostMetal=1868;
   builder=1;
