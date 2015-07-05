@@ -4,6 +4,10 @@
 - Mortar platoons cost is based on 2000 command + HP (single unit)
 - airbombs target borders of units
 - cheaper US Flamethrowerplatoon
+- added Me262 Schwalbe
+- added M36 jackson
+- some gunyard upgrade changes to US,GBR
+
 Unitdef changes:
 --------------------
 GBRM10Achilles:
