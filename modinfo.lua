@@ -8,7 +8,7 @@ local modinfo = {
 	description		= 'Epic World War II RTS! (with balance)',
 	url				= 'http://www.spring1944.net/',
 	modtype			= '1',
-	depend =	{"Spring: 1944 dev-$VERSION"},
+	depend =	{"Spring: 1944 $VERSION"},
 }
 
 return modinfo
