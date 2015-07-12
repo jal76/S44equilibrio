@@ -151,7 +151,7 @@ local Maxim = MGClass:New{
 -- Maxim AA
 local MaximAA = Maxim:New{
   accuracy	     = 400,
-  burst              = 7,
+  burst              = 12,
   burstRate          = 0.103,
   canAttackGround    = false,
   movingAccuracy     = 800,
