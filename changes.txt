@@ -6,7 +6,13 @@
 - cheaper US Flamethrowerplatoon
 - added Me262 Schwalbe
 - added M36 jackson
+- higher altitude for scoutplanes
 - some gunyard upgrade changes to US,GBR
+-removed extra damage from explosive to armoured vehicles
+-move fear shield from tanks to engineers
+-fix targeting of tankgun HE
+-fix mortar targetting
+-remove 85mm AP from grenades
 
 Unitdef changes:
 --------------------
