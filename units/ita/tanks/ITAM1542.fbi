@@ -1,48 +1,46 @@
 [unitinfo] {
-  unitname=RUSValentine;
-  name=Mk.III Valentine Infantry Tank (lend-lease);
+  unitname=ITAM1542;
+  name=Carro Medio M15/42;
   description=Light Tank;
   acceleration=0.051;
   airSightDistance=1500;
   brakeRate=0.15;
   buildCostEnergy=0;
-  buildCostMetal=1800;
-  buildTime=1800;
+  buildCostMetal=1850;
+  buildTime=1850;
   canMove=1;
   category=MINETRIGGER HARDVEH;
   //collisionVolumeType=box;
-  //collisionVolumeScales=17 15 31;
-  //collisionVolumeOffsets=0 -1 0;
+  //collisionVolumeScales=16 16 32;
+  //collisionVolumeOffsets=0 0 0;
   //collisionVolumeTest=1;
-  corpse=RUSValentine_Abandoned;
+  corpse=ITAM1542_Abandoned;
   [customParams] {
-    armor_front=60;
-    armor_rear=32;
-    armor_side=55;
-    armor_top=20;
-    hasturnbutton=1;
+    armor_front=43;
+    armor_rear=25;
+    armor_side=25;
+    armor_top=14;
     lowammolevel=6;
-    maxammo=18;
+    maxammo=25;
     weaponcost=8;
-    weaponswithammo=2;
-    soundcategory=RUS/Tank;
-	killvoicecategory_hardveh=RUS/Tank/RUS_TANK_TANKKILL;
-	killvoicephasecount=3;
+    weaponswithammo=3;
+	hasturnbutton=1;
+    soundcategory=ITA/Tank;
   }
   explodeAs=Vehicle_Explosion_Med;
   footprintX=3;
   footprintZ=3;
   iconType=medtank;
   leaveTracks=1;
-  mass=1650;
-  maxDamage=1650;
-  maxReverseVelocity=0.8;
+  mass=1550;
+  maxDamage=1550;
+  maxReverseVelocity=1.665;
   maxSlope=2;
-  maxVelocity=1.8;
+  maxVelocity=3.1;
   maxWaterDepth=15;
   movementClass=TANK_Medium;
   noChaseCategory=FLAG AIR MINE;
-  objectName=RUSValentine.S3O;
+  objectName=ITAM1542.s3o;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Med;
   [sfxtypes] {
@@ -58,37 +56,54 @@
     explosionGenerator9=custom:SMALL_MUZZLEDUST;
   }
   showNanoFrame=0;
-  side=RUS;
+  side=ITA;
   sightDistance=750;
   smoothAnim=0;
   stealth=1;
   trackOffset=5;
   trackStrength=7;
   trackStretch=1;
-  trackType=T60-70-SU76;
+  trackType=Stdtank;
   trackWidth=18;
   turninplace=0;
   turnRate=250;
   badTargetCategory=FLAG;
 
-  weapon1=qf2pdr40mmhe;;
-  weaponMainDir1=0 16 1;
   maxAngleDif1=210;
-  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
-  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
-
-  weapon2=qf2pdr40mmap;
-  weaponMainDir2=0 16 1;
   maxAngleDif2=210;
+  maxAngleDif3=210;
+  weaponMainDir1=0 16 1;
+  weaponMainDir2=0 16 1;
+  weaponMainDir3=0 16 1;
+
+  weapon1=CannoneDa47mml40HE;
+  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
+  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH SHIP OPENVEH HARDVEH LARGESHIP DEPLOYED;
+
+  weapon2=CannoneDa47mml40AP;
   onlyTargetCategory2=OPENVEH HARDVEH;
 
-  weapon3=BESA;
-  weaponMainDir3=0 16 1;
-  maxAngleDif3=210;
-  onlyTargetCategory3=INFANTRY SOFTVEH DEPLOYED;
+  weapon3=CannoneDa47mml40HEAT;
+  onlyTargetCategory3=OPENVEH HARDVEH;
 
-  weapon4=.50calproof;
+  weapon4=BredaM38;
+  onlyTargetCategory4=INFANTRY SOFTVEH DEPLOYED;
+  weaponMainDir4=0 0 1;
+  maxAngleDif4=10;
 
-  weapon5=Small_Tracer_Green;
+	weapon5=BredaM38;
+	onlyTargetCategory5=INFANTRY SOFTVEH DEPLOYED;
+	weaponMainDir5=0 0 1;
+	maxAngleDif5=30;
+
+	weapon6=BredaM38;
+	onlyTargetCategory6=INFANTRY SOFTVEH DEPLOYED;
+	weaponMainDir6=0 0 1;
+	weaponSlaveTo6=4;
+	maxAngleDif6=30;
+
+  weapon7=.50calproof;
+
+  weapon8=Small_Tracer_Green;
 }
 

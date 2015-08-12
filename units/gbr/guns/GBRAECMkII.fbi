@@ -20,7 +20,6 @@
     armor_rear=16;
     armor_side=30;
     armor_top=10;
-    blockfear=1;
     hasturnbutton=1;
     lowammolevel=2;
     maxammo=10; // 40 rounds
@@ -77,7 +76,7 @@
   weapon1=qf6pdr57mmhe;
   weaponMainDir1=0 16 1;
   maxAngleDif1=210;
-  badTargetCategory1=OPENVEH HARDVEH;
+  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
   onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
 
   weapon2=qf6pdr57mmap;

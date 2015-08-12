@@ -17,7 +17,6 @@
     armor_rear=14;
     armor_side=13;
     armor_top=4;
-    blockfear=1;
     canareaattack=1;
     defaultMove=1;
     hasturnbutton=1;

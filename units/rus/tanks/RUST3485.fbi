@@ -20,7 +20,6 @@
     armor_rear=59;
     armor_side=56;
     armor_top=20;
-    blockfear=1;
     hasturnbutton=1;
     lowammolevel=4;
     maxammo=11;
@@ -75,7 +74,7 @@
   weapon1=S5385mmHE;
   weaponMainDir1=0 16 1;
   maxAngleDif1=210;
-  badTargetCategory1=OPENVEH HARDVEH;
+  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
   onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
 
   weapon2=S5385mmAP;

@@ -1,46 +1,52 @@
 [unitinfo] {
-  unitname=USM36Jackson;
-  name=M36 GMC Jackson;
-  description=Heavy Tank Destroyer;
-  acceleration=0.052;
-  airSightDistance=2500;
+  unitname=JPNHoNiIII;
+  name=Type 3 Ho-Ni III;
+  description=Tank Destroyer;
+  acceleration=0.041;
+  airSightDistance=1500;
   brakeRate=0.15;
   buildCostEnergy=0;
-  buildCostMetal=4000;
-  buildTime=4000;
+  buildCostMetal=2050;
+  buildTime=2050;
   canMove=1;
   category=MINETRIGGER HARDVEH;
-  corpse=USM36Jackson_Destroyed;
+  //collisionVolumeType=box;
+  //collisionVolumeScales=21 14 42;
+  //collisionVolumeOffsets=0 0 0;
+  //collisionVolumeTest=1;
+  corpse=JPNHoNiIII_Abandoned;
   [customParams] {
-    armor_front=70;
+    armor_front=30;
     armor_rear=25;
     armor_side=25;
-    armor_top=19;
-    hasturnbutton=1;
-    lowammolevel=3;
-    maxammo=11;
-    weaponcost=17;
+    armor_top=0;
+    lowammolevel=4;
+    maxammo=14;
+    weaponcost=12;
     weaponswithammo=1;
+	hasturnbutton=1;
+    soundcategory=JPN/Tank/SP;
   }
   explodeAs=Vehicle_Explosion_Med;
   footprintX=3;
   footprintZ=3;
   iconType=selfprop;
   leaveTracks=1;
-  mass=3100;
-  maxDamage=2903;
-  maxReverseVelocity=1.555;
+  mass=1700;
+  maxDamage=1700;
+  maxReverseVelocity=1.5;
   maxSlope=2;
-  maxVelocity=3.11;
-  maxWaterDepth=15;
+  maxVelocity=3;
+  maxWaterDepth=5;
   movementClass=TANK_Medium;
-  noChaseCategory=BUILDING FLAG INFANTRY SOFTVEH AIR OPENVEH DEPLOYED MINE;
-  objectName=USM36Jackson.S3O;
+  noChaseCategory=FLAG AIR MINE;
+  objectName=JPNHoNiIII.s3o;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Med;
   [sfxtypes] {
     explosionGenerator0=custom:SMOKEPUFF_GPL_FX;
-    explosionGenerator1=custom:PLACEHOLDER_EFFECT01;
+    explosionGenerator1=custom:SMALL_MUZZLEFLASH;
+    explosionGenerator10=custom:MuzzleBrakeSmoke;
     explosionGenerator2=custom:PLACEHOLDER_EFFECT02;
     explosionGenerator3=custom:PLACEHOLDER_EFFECT03;
     explosionGenerator4=custom:PLACEHOLDER_EFFECT04;
@@ -51,31 +57,25 @@
     explosionGenerator9=custom:MEDIUM_MUZZLEDUST;
   }
   showNanoFrame=0;
-  side=US;
-  sightDistance=5000;
+  side=JPN;
+  sightDistance=720;
   smoothAnim=0;
-  soundcategory=USTank;
   stealth=1;
-  TEDClass=TANK;
   trackOffset=5;
-  trackStrength=7;
+  trackStrength=10;
   trackStretch=1;
   trackType=Stdtank;
-  trackWidth=18;
+  trackWidth=14;
   turninplace=0;
-  turnRate=280;
-  badTargetCategory=BUILDING FLAG INFANTRY SOFTVEH OPENVEH DEPLOYED;
+  turnRate=175;
+  badTargetCategory=FLAG;
 
-  weapon1=m390mmap;
+  weapon1=Type375mmL38AP;
   badTargetCategory1=SOFTVEH;
   onlyTargetCategory1=SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP;
+  maxAngleDif1=20;
+  weaponMainDir1=0 0 1;
 
-  weapon2=M2BrowningAA;
-  onlyTargetCategory2=AIR;
-
-  weapon3=.50calproof;
-
-  weapon4=Medium_Tracer;
-
+  weapon2=.50calproof;
 }
 

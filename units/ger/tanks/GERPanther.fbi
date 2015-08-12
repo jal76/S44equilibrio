@@ -20,7 +20,6 @@
     armor_rear=47;
     armor_side=49;
     armor_top=16;
-    blockfear=1;
     hasturnbutton=1;
     lowammolevel=5;
     maxammo=15;
@@ -74,6 +73,7 @@
   weapon1=KwK75mmL71HE;
   weaponMainDir1=0 16 1;
   maxAngleDif1=210;
+  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
   onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
 
   weapon2=KwK75mmL71AP;

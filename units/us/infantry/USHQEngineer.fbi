@@ -1,41 +1,46 @@
 [unitinfo] {
-  unitname=JPNHQEngineer;
+  unitname=USHQEngineer;
   name=Field Engineer;
   description=Basic Engineer;
   acceleration=0.375;
   brakeRate=0.9;
   buildCostEnergy=0;
-  buildCostMetal=225;
+  buildCostMetal=280;
   buildDistance=128;
   builder=1;
-  buildTime=225;
-  buildPic=JPNEngineer.png;
+  buildTime=280;
   canMove=1;
   category=INFANTRY;
-  corpse=JPNsoldier_dead;
+  corpse=USsoldier_dead;
   [customParams] {
-    feartarget=1;
-	canclearmines=1;
+    canclearmines=1;
 	blockfear=1;
-    soundcategory=JPN/Infantry;
+    feartarget=1;
+    soundcategory=US/Infantry;
   }
-  damageModifier=0.375;
+  damageModifier=0.265;
   energyStorage=0.01;
+  flankingBonusMax=1.5;
+  flankingBonusMin=0.675;
+  flankingBonusMobilityAdd=0.01;
+  flankingBonusMode=1;
   footprintX=1;
   footprintZ=1;
   iconType=engineer;
   mass=50;
-  maxDamage=80;
+  maxDamage=100;
   maxSlope=15;
   maxVelocity=1.6;
   maxWaterDepth=50;
   movementClass=KBOT_Infantry;
+  objectName=USEngineer.S3O;
   repairable=0;
+  script=GBRHQEngineer.cob;
+  seismicDistance=840;
+
   seismicSignature=0;
   [sfxtypes] {
   }
-  objectName=jpnengineer.s3o;
-  script=GBRHQEngineer.cob;
   showNanoFrame=0;
   showNanoSpray=0;
   sightDistance=600;
@@ -45,7 +50,7 @@
   turnRate=1010;
   upright=1;
   workerTime=15;
-  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP DEPLOYED;
-  onlyTargetCategory2=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP DEPLOYED;
+  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+  onlyTargetCategory2=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
 }
 
