@@ -47,7 +47,7 @@
   myGravity=0.6;
   noChaseCategory=AIR MINE;
   objectName=GERFi156.S3O;
-  radarDistance=2000;
+  radarDistance=1500;
   refuelTime=10;
   repairable=0;
   seismicSignature=0;

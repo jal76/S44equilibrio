@@ -45,7 +45,7 @@
   maxWaterDepth=0;
   myGravity=0.6;
   objectName=USL4.S3O;
-  radarDistance=2000;
+  radarDistance=1500;
   refuelTime=10;
   repairable=0;
   seismicSignature=0;
