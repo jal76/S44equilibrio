@@ -6,7 +6,10 @@
 - cheaper US Flamethrowerplatoon
 - added Me262 Schwalbe
 - added M36 jackson
+- cheaper radars,cheaper SP artillery for old sides
+- redoced colvol of tankgun projectiles
 - higher altitude for scoutplanes
+- old AEC MkII returned
 - some gunyard upgrade changes to US,GBR
 -removed extra damage from explosive to armoured vehicles
 -move fear shield from tanks to engineers
