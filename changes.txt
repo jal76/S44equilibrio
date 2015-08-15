@@ -15,7 +15,8 @@
 -move fear shield from tanks to engineers
 -fix targeting of tankgun HE
 -fix mortar targetting
--remove 85mm AP from grenades
+-remove 85mm AP from grenades , now 30mm AP
+-increased los of openveh from 300 to 600,increased unitdamage modifier from 0.264 to 0.75 
 
 Unitdef changes:
 --------------------
