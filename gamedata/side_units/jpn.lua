@@ -61,6 +61,7 @@ local jpnunits =
 		"jpn_tankette_platoon_teke",
 		"jpnhago",
 		--"jpnhonii",
+		"jpnkurogane",
 	},
 	jpnvehyard_landing =
 	{
@@ -74,6 +75,7 @@ local jpnunits =
 		"jpnkatsu",
 		"jpnkami",
 		"jpnpontoontruck",
+		"jpnkurogane",
 	},
 	jpnvehyard_tank =
 	{
@@ -85,6 +87,7 @@ local jpnunits =
 		"jpnhago",
 		--"jpnhonii",
 		"jpnshinhotochiha",
+		"jpnkurogane",
 	},
 	jpngunyard =
 	{

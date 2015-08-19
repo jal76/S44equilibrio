@@ -23,8 +23,8 @@
   footprintZ=2;
   iconType=scoutcar;
   leaveTracks=1;
-  mass=150;
-  maxDamage=150;
+  mass=550;
+  maxDamage=550;
   maxReverseVelocity=2.5;
   maxSlope=10;
   maxVelocity=5.5;

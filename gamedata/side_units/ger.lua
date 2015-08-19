@@ -88,6 +88,7 @@ local gerunits =
     "gersdkfz251",
     "gersdkfz10",
     "germarder",
+    "gerkubel",
   },
   
   gervehicleyard1 =
@@ -99,6 +100,7 @@ local gerunits =
     "gersdkfz10",
     "germarder",
     "gerpuma",
+    "gerkubel",
   },
 
   gergunyard =

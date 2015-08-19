@@ -81,6 +81,7 @@ local usunits = {
     "usdukw",
     "usm8greyhound",
     "usm8scott",
+    "usjeep",
   },
   
   usvehicleyard1 =
@@ -94,6 +95,7 @@ local usunits = {
     "usm8greyhound",
     "usm8scott",
     "usm5stuart",
+    "usjeep",
   },
 
   usgunyard =

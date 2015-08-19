@@ -1,6 +1,6 @@
 [unitinfo] {
-  unitname=GERKubel;
-  name=Kuebelwagen;
+  unitname=RUSGAZ67;
+  name=GAZ67;
   description=Scoutcar;
   acceleration=0.045;
   airSightDistance=2500;
@@ -31,7 +31,7 @@
   maxWaterDepth=5;
   movementClass=TANK_Car;
   noChaseCategory=FLAG AIR MINE HARDVEH BUILDING;
-  objectName=GERKubel.S3O;
+  objectName=RUSGAZ67.S3O;
   releaseHeld=0;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;

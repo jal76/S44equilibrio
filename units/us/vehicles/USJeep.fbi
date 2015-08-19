@@ -1,10 +1,10 @@
 [unitinfo] {
-  unitname=GERKubel;
-  name=Kuebelwagen;
+  unitname=USJeep;
+  name=Jeep;
   description=Scoutcar;
-  acceleration=0.045;
+  acceleration=0.052;
   airSightDistance=2500;
-  brakeRate=0.195;
+  brakeRate=0.2;
   buildCostEnergy=0;
   buildCostMetal=1100;
   buildTime=1100;
@@ -23,15 +23,15 @@
   footprintZ=2;
   iconType=scoutcar;
   leaveTracks=1;
-  mass=150;
-  maxDamage=150;
-  maxReverseVelocity=2.5;
+  mass=100;
+  maxDamage=100;
+  maxReverseVelocity=2.9;
   maxSlope=10;
-  maxVelocity=5.5;
+  maxVelocity=6.1;
   maxWaterDepth=5;
   movementClass=TANK_Car;
   noChaseCategory=FLAG AIR MINE HARDVEH BUILDING;
-  objectName=GERKubel.S3O;
+  objectName=USJeep.S3O;
   releaseHeld=0;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
