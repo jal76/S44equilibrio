@@ -298,7 +298,9 @@ gadget.baseBuildOrder = {
 		"gervehicleyard",
 		"gerstorage", "gerstorage",
 		"gertankyard",
+		"gertankyard1",
 		"gersupplydepot",
+		"gertankyard2",
 	},
 	us = UnitArray{
 		-- Works J
