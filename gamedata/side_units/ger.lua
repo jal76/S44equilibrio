@@ -78,6 +78,8 @@ local gerunits =
     --"geropelblitz",
     "gersturmboot",
     "pontoonraft",
+	"gertankyard1",
+	"gertankyard2",
   },
 
   gervehicleyard =
