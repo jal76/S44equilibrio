@@ -16,7 +16,7 @@
   //collisionVolumeTest=1;
   [customParams] {
     hasturnbutton=1;
-    soundcategory=GER/Vehicle;
+    soundcategory=RUS/Vehicle;
   }
   explodeAs=Vehicle_Explosion_Sm;
   footprintX=2;
@@ -46,7 +46,7 @@
     explosionGenerator7=custom:MG_MUZZLEFLASH;
   }
   showNanoFrame=0;
-  side=GER;
+  side=RUS;
   sightDistance=820;
   smoothAnim=0;
   stealth=1;
@@ -57,7 +57,6 @@
   trackWidth=10;
   turninplace=0;
   turnRate=405;
-  unloadSpread=2;
   badTargetCategory=FLAG;
 
   weapon1=binocs;

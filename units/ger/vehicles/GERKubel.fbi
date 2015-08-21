@@ -57,7 +57,6 @@
   trackWidth=10;
   turninplace=0;
   turnRate=405;
-  unloadSpread=2;
   badTargetCategory=FLAG;
 
   weapon1=binocs;
