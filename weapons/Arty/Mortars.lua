@@ -3,7 +3,7 @@
 -- Mortar Base Class
 local MortarClass = Weapon:New{
   accuracy           = 485,
-  avoidFeature		 = true,
+  avoidFeature		 = false,
   collideFriendly    = false,
   edgeEffectiveness  = 0.2,
   explosionGenerator = [[custom:HE_Medium]],
@@ -17,6 +17,7 @@ local MortarClass = Weapon:New{
   soundStart         = [[GEN_Mortar]],
   turret             = true,
   weaponType         = [[Cannon]],
+  highTrajectory	= 1,
   weaponVelocity     = 550,
   customparams = {
     armor_hit_side     = [[top]],
