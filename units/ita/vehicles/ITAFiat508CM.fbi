@@ -21,7 +21,7 @@
   explodeAs=Vehicle_Explosion_Sm;
   footprintX=2;
   footprintZ=2;
-  iconType=scoutcar;
+  iconType=jeep;
   leaveTracks=1;
   mass=150;
   maxDamage=150;
