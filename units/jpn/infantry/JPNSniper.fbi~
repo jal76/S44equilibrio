@@ -29,7 +29,7 @@
   iconType=sniper;
   init_cloaked=1;
   mass=50;
-  maxDamage=95;
+  maxDamage=80;
   maxSlope=25;
   maxVelocity=1.15;
   maxWaterDepth=15;

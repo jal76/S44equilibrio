@@ -1,0 +1,67 @@
+[unitinfo] {
+  unitname=GBRJeep;
+  name=Jeep;
+  description=Scoutcar;
+  acceleration=0.051;
+  airSightDistance=2500;
+  brakeRate=0.2;
+  buildCostEnergy=0;
+  buildCostMetal=1100;
+  buildTime=1100;
+  canMove=1;
+  category=MINETRIGGER SOFTVEH;
+  corpse=USJeep_Destroyed;
+  //collisionVolumeScales=16 12 43;
+  //collisionVolumeOffsets=0 0 2;
+  //collisionVolumeTest=1;
+  [customParams] {
+    hasturnbutton=1;
+    soundcategory=US/Vehicle;
+  }
+  explodeAs=Vehicle_Explosion_Sm;
+  footprintX=2;
+  footprintZ=2;
+  iconType=jeep;
+  leaveTracks=1;
+  mass=100;
+  maxDamage=100;
+  maxReverseVelocity=2.9;
+  maxSlope=10;
+  maxVelocity=6.0;
+  maxWaterDepth=5;
+  movementClass=TANK_Car;
+  noChaseCategory=FLAG AIR MINE HARDVEH BUILDING;
+  objectName=USJeep.S3O;
+  script=USJeep.lua;
+  releaseHeld=0;
+  seismicSignature=0;
+  selfDestructAs=Vehicle_Explosion_Sm;
+  [sfxtypes] {
+    explosionGenerator0=custom:SMOKEPUFF_GPL_FX;
+    explosionGenerator1=custom:PLACEHOLDER_EFFECT01;
+    explosionGenerator2=custom:PLACEHOLDER_EFFECT02;
+    explosionGenerator3=custom:PLACEHOLDER_EFFECT03;
+    explosionGenerator4=custom:PLACEHOLDER_EFFECT04;
+    explosionGenerator5=custom:PLACEHOLDER_EFFECT05;
+    explosionGenerator6=custom:PLACEHOLDER_EFFECT06;
+    explosionGenerator7=custom:MG_MUZZLEFLASH;
+  }
+  showNanoFrame=0;
+  side=GBR;
+  sightDistance=820;
+  smoothAnim=0;
+  stealth=1;
+  trackOffset=10;
+  trackStrength=6.5;
+  trackStretch=1;
+  trackType=Stdtank;
+  trackWidth=10;
+  turninplace=0;
+  turnRate=405;
+  badTargetCategory=FLAG;
+
+  weapon1=binocs;
+  onlyTargetCategory1=NONE;
+
+}
+

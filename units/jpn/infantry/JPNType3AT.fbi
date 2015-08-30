@@ -29,7 +29,7 @@
   idleAutoHeal=1;
   // init_cloaked=1;
   mass=50;
-  maxDamage=90;
+  maxDamage=95;
   maxSlope=15;
   // maxVelocity=1.3;
   maxVelocity=1.6;

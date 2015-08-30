@@ -32,7 +32,7 @@
   highTrajectory=1;
   iconType=mortar;
   mass=50;
-  maxDamage=160;
+  maxDamage=95;
   maxSlope=15;
   maxVelocity=1.45;
   maxWaterDepth=10;

@@ -29,7 +29,7 @@
   iconType=antitank;
   // init_cloaked=1;
   mass=75;
-  maxDamage=90;
+  maxDamage=95;
   maxSlope=20;
   // maxVelocity=1;
   maxVelocity=1.6;

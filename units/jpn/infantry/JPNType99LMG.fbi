@@ -24,7 +24,7 @@
   footprintZ=1;
   iconType=lightmg;
   mass=50;
-  maxDamage=90;
+  maxDamage=95;
   maxSlope=15;
   maxVelocity=1.6;
   maxWaterDepth=5;

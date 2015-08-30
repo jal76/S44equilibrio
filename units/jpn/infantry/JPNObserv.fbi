@@ -29,7 +29,7 @@
   iconType=officer;
   init_cloaked=1;
   mass=50;
-  maxDamage=80;
+  maxDamage=95;
   maxSlope=40;
   maxVelocity=1.6;
   maxWaterDepth=10;
