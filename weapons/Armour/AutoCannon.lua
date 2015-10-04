@@ -87,6 +87,7 @@ local FlaK3820mm = ACClass:New{
 }
 
 local FlaK3820mmAA = FlaK3820mm:New(ACAAClass, true):New{
+  reloadTime         = 6,
   burst              = 5,
   burstRate          = 0.13,
   range              = 1410,
@@ -136,6 +137,7 @@ local Oerlikon20mm = ACClass:New{
 
 local Oerlikon20mmAA = Oerlikon20mm:New(ACAAClass, true):New{
   burst              = 5,
+  reloadTime         = 3,
   range              = 1450,
 }
 local Oerlikon20mmHE = Oerlikon20mm:New(ACHEClass, true)
@@ -190,6 +192,7 @@ local BredaM3520mm = ACClass:New{
 
 local BredaM3520mmAA = BredaM3520mm:New(ACAAClass, true):New{
   burst              = 5,
+  reloadTime         = 3.2,
   burstRate          = 0.2,
   range              = 1450,
   sprayAngle         = 475,
@@ -237,6 +240,7 @@ local Type9820mm = ACClass:New{
 
 local Type9820mmAA = Type9820mm:New(ACAAClass, true):New{
   burst              = 5,
+  reloadTime         = 4,
   burstRate          = 0.13,
   range              = 1450,
 }
@@ -246,7 +250,7 @@ local Type9820mmHE = Type9820mm:New(ACHEClass, true)
 -- Type 96 25mm (JPN)
 local Type9625mm = ACClass:New{
   accuracy           = 255,
-  areaOfEffect       = 15, --if this is changed, change AA and HE aoe and fearaoe accordingly
+  areaOfEffect       = 18, --if this is changed, change AA and HE aoe and fearaoe accordingly
   burst              = 5,
   burstRate          = 0.231,
   name               = [[Type 98 20mm]],
@@ -262,6 +266,7 @@ local Type9625mm = ACClass:New{
 
 local Type9625mmAA = Type9625mm:New(ACAAClass, true):New{
   range              = 1950,
+  reloadTime         = 3.4,
   damage = {
     default            = 55,
   },
@@ -270,7 +275,7 @@ local Type9625mmAA = Type9625mm:New(ACAAClass, true):New{
 local TwinType9625mmAA = Type9625mmAA:New{
 	burst            = 36,
 	burstrate        = 0.12,
-    reloadtime       = 6.5,
+    reloadtime       = 13,
 }
 
 local Type9625mmHE = Type9625mm:New(ACHEClass, true)

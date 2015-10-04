@@ -68,22 +68,22 @@ local Bofors40mmAA = Bofors40mm:New(AAGunAAClass, true):New{
   burst              = 4,
   burstrate          = 0.33,
   range              = 1625,
-  reloadtime         = 1.5,
+  reloadtime         = 3,
 }
 local Bofors40mmHE = Bofors40mm:New(AAGunHEClass, true):New{
   burst              = 2,
   burstrate          = 0.5,
   range              = 725,
-  reloadtime         = 1.625,
+  reloadtime         = 3.25,
 }
 
 -- Twin Bofors 40mm AA Gun (For ships)
 -- derives from the above, only with half the reloadtime
 local Twin_Bofors40mmAA = Bofors40mmAA:New{
-  reloadtime         = 0.75,
+  reloadtime         = 1.5,
 }
 local Twin_Bofors40mmHE = Bofors40mmHE:New{
-  reloadtime         = 0.8125,
+  reloadtime         = 1.65,
 }
 
 -- FlaK 43 37mm AA Gun (GER)
@@ -98,13 +98,13 @@ local FlaK4337mmAA = FlaK4337mm:New(AAGunAAClass, true):New{
   burst              = 4,
   burstrate          = 0.250,
   range              = 1625,
-  reloadtime         = 1.6,
+  reloadtime         = 3.2,
 }
 local FlaK4337mmHE = FlaK4337mm:New(AAGunHEClass, true):New{
   burst              = 2,
   burstrate          = 0.625,
   range              = 725,
-  reloadtime         = 1.625,
+  reloadtime         = 3.3,
 }
 
 -- M-1939 61-K 37mm AA Gun (RUS)
@@ -119,13 +119,13 @@ local M1939_61K37mmAA = M1939_61K37mm:New(AAGunAAClass, true):New{
   burst              = 5, -- fed from 5 round clip
   burstrate          = 0.35, -- 170rpm cyclic
   range              = 1625,
-  reloadtime         = 3.75, -- 80rpm practical
+  reloadtime         = 7.25, -- 80rpm practical
 }
 local M1939_61K37mmHE = M1939_61K37mm:New(AAGunHEClass, true):New{
   burst              = 2,
   burstrate          = 0.625,
   range              = 725,
-  reloadtime         = 1.625,
+  reloadtime         = 3.3,
 }
 
 -- Return only the full weapons

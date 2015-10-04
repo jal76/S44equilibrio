@@ -17,6 +17,9 @@
 -fix mortar targetting
 -remove 85mm AP from grenades , now 30mm AP
 -increased los of openveh from 300 to 600,increased unitdamage modifier from 0.264 to 0.75 
+- double AA reloadtimes
+- ita vendetta cost 2800
+- M10Wolverine and M10Achilles are 200 command cheaper now
 
 Unitdef changes:
 --------------------
