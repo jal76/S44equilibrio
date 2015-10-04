@@ -32,6 +32,7 @@
   movementClass=TANK_Car;
   noChaseCategory=FLAG AIR MINE HARDVEH BUILDING;
   objectName=RUSGAZ67.S3O;
+  script=RUSGAZ67.lua;
   releaseHeld=0;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
