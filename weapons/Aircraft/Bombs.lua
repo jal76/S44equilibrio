@@ -7,6 +7,7 @@ local BombClass = Weapon:New{
   explosionGenerator = [[custom:HE_XXLarge]],
   heightBoostFactor  = 0,
   impulseFactor      = 0.01,
+  leadlimit	     = 400,
   manualBombSettings = true,
   noSelfDamage		 = true,
   targetBorder	= 1,

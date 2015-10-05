@@ -6,6 +6,7 @@ local AirATGunClass = Weapon:New{
   accuracy           = 100,
   avoidFriendly      = false,
   canattackground    = false,
+  leadlimit	     = 400,
   heightBoostFactor  = 0,
   collisionSize      = 4,
   collideFriendly    = false,
