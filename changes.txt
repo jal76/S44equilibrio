@@ -20,6 +20,8 @@
 - double AA reloadtimes
 - ita vendetta cost 2800
 - M10Wolverine and M10Achilles are 200 command cheaper now
+- chiha120mm cost a bit more,leadlimit to aircraftweapons
+- 10% cheaper alpini, improved semovente75_46 aiming
 
 Unitdef changes:
 --------------------

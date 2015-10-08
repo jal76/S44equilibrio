@@ -65,18 +65,18 @@ local jpnDefs = {
 	jpntankyard = {
 		{
 			into = 'jpntankyard_medium',
-			metal = 3000,
+			metal = 6000,
 			energy = 0,
-			time = 85,
+			time = 95,
 			name = '  Medium  \n  Tanks  ',
 			text = 'Makes Improved Medium Tanks available in this yard',
 			facing = true,
 		},
 		{
 			into = 'jpntankyard_support',
-			metal = 6500,
+			metal = 4000,
 			energy = 0,
-			time = 185,
+			time = 60,
 			name = '  Heavy  \n  Support  ',
 			text = 'Makes Heavy Support Tanks available in this yard',
 			facing = true,
