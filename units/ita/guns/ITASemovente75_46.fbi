@@ -71,16 +71,16 @@
   turnRate=175;
   badTargetCategory=FLAG;
 
-  weapon2=Ansaldo75mmL46HE;
-  badTargetCategory2=OPENVEH HARDVEH INFANTRY;
-  maxAngleDif2=15;
-  onlyTargetCategory2=BUILDING INFANTRY SOFTVEH SHIP LARGESHIP DEPLOYED;
-  weaponMainDir2=0 0 1;
-
-  weapon1=Ansaldo75mmL46AP;
-  onlyTargetCategory1=OPENVEH HARDVEH LARGESHIP;
+  weapon1=Ansaldo75mmL46HE;
+  badTargetCategory1=INFANTRY;
   maxAngleDif1=15;
+  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH SHIP DEPLOYED;
   weaponMainDir1=0 0 1;
+
+  weapon2=Ansaldo75mmL46AP;
+  onlyTargetCategory2=OPENVEH HARDVEH LARGESHIP;
+  maxAngleDif2=15;
+  weaponMainDir2=0 0 1;
 
   weapon3=.50calproof;
 }
