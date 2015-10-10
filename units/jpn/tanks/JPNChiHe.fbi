@@ -77,12 +77,12 @@
   onlyTargetCategory2=OPENVEH HARDVEH;
 
   weapon3=Type97MG;
-  onlyTargetCategory3=INFANTRY OPENVEH SOFTVEH DEPLOYED;
+  onlyTargetCategory3=INFANTRY SOFTVEH DEPLOYED;
 	weaponMainDir3 = 0 0 1;
 	maxAngleDif3 = 50;
 
   weapon4=Type97MG;
-  onlyTargetCategory4=INFANTRY OPENVEH SOFTVEH DEPLOYED;
+  onlyTargetCategory4=INFANTRY SOFTVEH DEPLOYED;
 	weaponMainDir4 = 0 16 1;
 	maxAngleDif4 = 210;
 

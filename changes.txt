@@ -22,6 +22,8 @@
 - M10Wolverine and M10Achilles are 200 command cheaper now
 - chiha120mm cost a bit more,leadlimit to aircraftweapons
 - 10% cheaper alpini, improved semovente75_46 aiming
+- made jpn heavysupport upgrade cheaper and jp medium tanks upgrade 	more expensive,made italian heavyarmour upgrade faster (it was 	slow),added craig pathing fro chesterhillv3
+- fixed ChiHe MG targetting vs OPENVEH, fixed Teke targetting HE vs 	SOFTVEH
 
 Unitdef changes:
 --------------------

@@ -70,11 +70,11 @@
   badTargetCategory=FLAG;
 
   weapon1=Type9437mmHE;
-  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
-  onlyTargetCategory1=BUILDING OPENVEH HARDVEH INFANTRY SOFTVEH SHIP LARGESHIP DEPLOYED;
+  badTargetCategory1=INFANTRY;
+  onlyTargetCategory1=BUILDING INFANTRY SHIP DEPLOYED;
 
   weapon2=Type9437mmAP;
-  onlyTargetCategory2=OPENVEH HARDVEH;
+  onlyTargetCategory2=OPENVEH HARDVEH SOFTVEH LARGESHIP;
 
   weapon3=.50calproof;
 }
