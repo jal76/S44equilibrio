@@ -66,13 +66,13 @@ local ITADefs = {
 	"ITAP40",
 	"ITASemovente105",
 	"ITASemovente75_18",
-	"ITASemovente75_46",
 	},
 	
 	
   heavytanks  =  {
     --Italy--
-    "itap43bis",
+	"ITASemovente75_46",
+  	"itap43bis",
   },
 
   armouredVehicles  =  {
