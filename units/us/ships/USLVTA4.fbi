@@ -29,6 +29,8 @@
     weaponswithammo=1;
     hasturnbutton=1;
     soundcategory=US/Tank;
+	flagCapRate=1;
+	flagCapType="buoy";
   }
   explodeAs=Vehicle_Explosion_Med;
   footprintX=3;

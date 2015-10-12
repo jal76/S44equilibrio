@@ -39,10 +39,10 @@
   maxAileron=0.00375;
   maxBank=0.9;
   maxDamage=360;
-  maxElevator=0.00375;
+  maxElevator=0.00175;
   maxFuel=160;
-  maxPitch=0.5;
-  maxRudder=0.0015;
+  maxPitch=0.4;
+  maxRudder=0.0020;
   maxSlope=10;
   maxVelocity=14;
   maxWaterDepth=0;

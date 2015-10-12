@@ -64,6 +64,7 @@ local moveDefs 	=	 {
 		crushStrength	=	40,
 		heatmapping		= false,
 	},
+	{
 		name					=	"TANK_Smallgoat",
 		footprintX		=	2,
 		maxWaterDepth	=	10,

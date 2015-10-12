@@ -27,6 +27,8 @@
     weaponcost=8;
     weaponswithammo=2;
     soundcategory=JPN/Tank;
+	flagCapRate=1;
+	flagCapType="buoy";
   }
   explodeAs=Vehicle_Explosion_Sm;
   footprintX=2;
