@@ -19,11 +19,12 @@
 -increased los of openveh from 300 to 600,increased unitdamage modifier from 0.264 to 0.75 
 - double AA reloadtimes
 - ita vendetta cost 2800
-- M10Wolverine and M10Achilles are 200 command cheaper now
+- M10Wolverine and M10Achilles are 200 command cheaper now (after it got 20% more expensive)
 - chiha120mm cost a bit more,leadlimit to aircraftweapons
 - 10% cheaper alpini, improved semovente75_46 aiming
 - made jpn heavysupport upgrade cheaper and jp medium tanks upgrade 	more expensive,made italian heavyarmour upgrade faster (it was 	slow),added craig pathing fro chesterhillv3
 - fixed ChiHe MG targetting vs OPENVEH, fixed Teke targetting HE vs 	SOFTVEH
+- reduced mobility of rocketarmed planes and stuka, jpnkami and uslvta4 can cap buoy now
 
 Unitdef changes:
 --------------------

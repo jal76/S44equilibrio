@@ -153,12 +153,13 @@ local Maxim = MGClass:New{
 local MaximAA = Maxim:New{
   accuracy	     = 400,
   burst              = 12,
-  burstRate          = 0.103,
   canAttackGround    = false,
   movingAccuracy     = 800,
-  reloadTime         = 5.2,
+  reloadTime         = 4.2,
   predictBoost       = 0.25,
-  range              = 800,
+  range              = 820,
+  sweepFire		=true,
+  proximityPriority	= 2,
   customparams = {
     no_range_adjust    = true,
     fearid             = 701,
@@ -321,7 +322,7 @@ local M2BrowningAA = M2Browning:New{
   movingAccuracy     = 1200,
   predictBoost       = 0.25,
   range              = 920,
-  sprayAngle        = 250,
+  sprayAngle        = 550,
   reloadTime         = 1.8,
   customparams = {
     no_range_adjust    = true,
@@ -343,7 +344,6 @@ local M2BrowningAMG = M2Browning:New{
   customparams = {
     no_range_adjust    = true,
   }
-
 }
 
 -- Breda M1931 (ITA)
