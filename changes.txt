@@ -25,6 +25,8 @@
 - made jpn heavysupport upgrade cheaper and jp medium tanks upgrade 	more expensive,made italian heavyarmour upgrade faster (it was 	slow),added craig pathing fro chesterhillv3
 - fixed ChiHe MG targetting vs OPENVEH, fixed Teke targetting HE vs 	SOFTVEH
 - reduced mobility of rocketarmed planes and stuka, jpnkami and uslvta4 can cap buoy now
+- rusgazaaa buff , M2 AA gets more spread.
+- improved optics for scoutcars.
 
 Unitdef changes:
 --------------------

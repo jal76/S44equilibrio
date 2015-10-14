@@ -33,7 +33,7 @@
   noChaseCategory=FLAG AIR MINE HARDVEH BUILDING;
   objectName=ITAFiat508CM.S3O;
   script=ITAFiat508CM.lua;
-  releaseHeld=0;
+  canattack=0;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
   [sfxtypes] {
@@ -60,7 +60,7 @@
   turnRate=405;
   badTargetCategory=FLAG;
 
-  weapon1=binocs;
+  weapon1=binocs2;
   onlyTargetCategory1=NONE;
 
 }

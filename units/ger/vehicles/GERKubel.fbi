@@ -9,6 +9,7 @@
   buildCostMetal=1100;
   buildTime=1100;
   canMove=1;
+  canattack=0;
   category=MINETRIGGER SOFTVEH;
   corpse=GERKubel_Destroyed;
   //collisionVolumeScales=16 12 43;
@@ -33,7 +34,6 @@
   noChaseCategory=FLAG AIR MINE HARDVEH BUILDING;
   objectName=GERKubel.S3O;
   script=GERKubel.lua;
-  releaseHeld=0;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
   [sfxtypes] {
@@ -60,7 +60,7 @@
   turnRate=405;
   badTargetCategory=FLAG;
 
-  weapon1=binocs;
+  weapon1=binocs2;
   onlyTargetCategory1=NONE;
 
 }
