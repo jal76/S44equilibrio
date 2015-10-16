@@ -7,7 +7,6 @@ local AirACClass = Weapon:New{
   collideFriendly    = false,
   leadlimit	     = 400,
   collisionSize      = 2,
-  collisionvolumetest = 1,
   fireStarter        = 10,
   impactonly         = 1,
   interceptedByShieldType = 8,

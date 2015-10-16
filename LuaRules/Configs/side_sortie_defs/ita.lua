@@ -52,9 +52,9 @@ local itaSorties = {
 		delay = 15,
 		name = "Interceptor Sortie",
 		description = "4 x MC.202",
-		buildCostMetal = 3800,
+		buildCostMetal = 3400,
 		buildPic = "ITAMC202.png",
-		buildTime = 3800,
+		buildTime = 3400,
 		side = "ita",
 	},
 	ita_sortie_fighter_bomber = {
