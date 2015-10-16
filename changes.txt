@@ -27,6 +27,9 @@
 - reduced mobility of rocketarmed planes and stuka, jpnkami and uslvta4 can cap buoy now
 - rusgazaaa buff , M2 AA gets more spread.
 - improved optics for scoutcars.
+-removed unknown weapontags, HVAR has range=700, Barrage Rocket 	spreads more, m8rocket82mm does 25% more damage, mc202 		sortie is a bit cheaper.
+- fixed some ju87 aiming and chasing.
+
 
 Unitdef changes:
 --------------------

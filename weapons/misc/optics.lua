@@ -39,9 +39,7 @@ local Binocs = OpticClass:New{
 local Binocs2 = OpticClass:New{
   name               = [[Advanced Binoculars]],
   range              = 2250,
-  burst			= 2,
-  burstrate		= 0.1,
-  sprayAngle         = 500,
+  targetMoveError     = 5,
   tolerance		= 3000,
 }
 
