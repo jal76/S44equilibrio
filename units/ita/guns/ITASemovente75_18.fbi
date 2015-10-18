@@ -67,7 +67,7 @@
   trackType=Stdtank;
   trackWidth=15;
   turninplace=0;
-  turnRate=900;
+  turnRate=71;
   badTargetCategory=FLAG;
 
   weapon1=ansaldo75mml18he;

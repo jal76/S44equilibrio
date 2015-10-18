@@ -67,7 +67,7 @@
   trackType=USShermanA;
   trackWidth=18;
   turninplace=0;
-  turnRate=900;
+  turnRate=77;
   badTargetCategory=FLAG;
 
   weapon1=M7HE;

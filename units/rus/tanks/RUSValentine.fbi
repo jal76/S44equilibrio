@@ -68,7 +68,7 @@
   trackType=T60-70-SU76;
   trackWidth=18;
   turninplace=0;
-  turnRate=900;
+  turnRate=38;
   badTargetCategory=FLAG;
 
   weapon1=qf2pdr40mmhe;;

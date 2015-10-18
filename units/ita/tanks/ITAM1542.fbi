@@ -66,7 +66,7 @@
   trackType=Stdtank;
   trackWidth=18;
   turninplace=0;
-  turnRate=850;
+  turnRate=78;
   badTargetCategory=FLAG;
 
   maxAngleDif1=210;

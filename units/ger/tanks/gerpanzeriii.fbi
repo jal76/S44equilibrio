@@ -67,7 +67,7 @@
   trackType=Stdtank;
   trackWidth=19;
   turninplace=0;
-  turnRate=260;
+  turnRate=73;
   badTargetCategory=FLAG;
 
   weapon1=KwK50mmL60HE;

@@ -71,7 +71,7 @@
   trackType=Stdtank;
   trackWidth=22;
   turninplace=0;
-  turnRate=1000;
+  turnRate=67;
   badTargetCategory=FLAG;
 
   weapon1=ML20S152mmHE;
