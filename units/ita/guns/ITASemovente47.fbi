@@ -67,7 +67,7 @@
   trackType=Stdtank;
   trackWidth=11;
   turninplace=0;
-  turnRate=175;
+  turnRate=800;
   badTargetCategory=FLAG;
 
   weapon1=CannoneDa47mml32AP;

@@ -1,51 +1,52 @@
 [unitinfo] {
-  unitname=USM10Wolverine;
-  name=M10 GMC Wolverine;
-  description=Tank Destroyer;
-  acceleration=0.052;
+  unitname=GERMarder;
+  name=Panzerjager Marder;
+  description=Cheap Turretless Tank Destroyer;
+  acceleration=0.048;
   airSightDistance=2500;
   brakeRate=0.15;
   buildCostEnergy=0;
-  buildCostMetal=2175;
-  buildTime=2175;
+  buildCostMetal=1400;
+  buildTime=1400;
   canMove=1;
-  category=MINETRIGGER HARDVEH;
+  category=MINETRIGGER OPENVEH;
   //collisionVolumeType=box;
-  //collisionVolumeScales=19 17.8 38.35;
-  //collisionVolumeOffsets=0 -4 -0.4;
+  //collisionVolumeScales=14 15 33;
+  //collisionVolumeOffsets=0 0 1;
   //collisionVolumeTest=1;
-  corpse=USM10Wolverine_Destroyed;
+  corpse=GERMarder_Destroyed;
   [customParams] {
-    armor_front=60;
-    armor_rear=25;
-    armor_side=25;
-    armor_top=19;
+    armor_front=10;
+    armor_rear=10;
+    armor_side=13;
+    armor_top=10;
     hasturnbutton=1;
-    lowammolevel=3;
-    maxammo=13;
-    weaponcost=14;
+    lowammolevel=2;
+    maxammo=6;
+    weaponcost=16;
     weaponswithammo=1;
-    soundcategory=US/Tank/SP;
+    soundcategory=GER/Tank/JgPz;
   }
-  explodeAs=Vehicle_Explosion_Med;
-  footprintX=3;
-  footprintZ=3;
+  explodeAs=Vehicle_Explosion_Sm;
+  footprintX=2;
+  footprintZ=2;
   iconType=selfprop;
   leaveTracks=1;
-  mass=2903;
-  maxDamage=2903;
+  mass=1050;
+  maxDamage=1050;
   maxReverseVelocity=1.555;
-  maxSlope=2;
+  maxSlope=5;
   maxVelocity=3.11;
-  maxWaterDepth=15;
+  maxWaterDepth=5;
   movementClass=TANK_Medium;
   noChaseCategory=BUILDING FLAG INFANTRY AIR DEPLOYED MINE;
-  objectName=USM10Wolverine.S3O;
+  objectName=GERMarder.S3O;
   seismicSignature=0;
-  selfDestructAs=Vehicle_Explosion_Med;
+  selfDestructAs=Vehicle_Explosion_Sm;
   [sfxtypes] {
     explosionGenerator0=custom:SMOKEPUFF_GPL_FX;
     explosionGenerator1=custom:PLACEHOLDER_EFFECT01;
+    explosionGenerator10=custom:MuzzleBrakeSmoke;
     explosionGenerator2=custom:PLACEHOLDER_EFFECT02;
     explosionGenerator3=custom:PLACEHOLDER_EFFECT03;
     explosionGenerator4=custom:PLACEHOLDER_EFFECT04;
@@ -56,30 +57,23 @@
     explosionGenerator9=custom:MEDIUM_MUZZLEDUST;
   }
   showNanoFrame=0;
-  side=US;
-  sightDistance=750;
+  side=GER;
+  sightDistance=720;
   smoothAnim=0;
   stealth=1;
-  trackOffset=5;
-  trackStrength=7;
+  trackOffset=3;
+  trackStrength=6;
   trackStretch=1;
   trackType=Stdtank;
-  trackWidth=18;
+  trackWidth=12;
   turninplace=0;
-  turnRate=900;
-  badTargetCategory=BUILDING FLAG INFANTRY SOFTVEH OPENVEH DEPLOYED;
+  turnRate=800;
+  badTargetCategory=FLAG;
 
-  weapon1=M7AP;
-  weaponMainDir1=0 16 1;
-  maxAngleDif1=210;
+  weapon1=KwK75mmL48AP;
   badTargetCategory1=SOFTVEH;
+  maxAngleDif1=15;
   onlyTargetCategory1=SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP;
-
-  weapon2=M2BrowningAA;
-  onlyTargetCategory2=AIR;
-
-  weapon3=.50calproof;
-
-  weapon4=Medium_Tracer;
+  weaponMainDir1=0 0 1;
 }
 

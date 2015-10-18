@@ -68,7 +68,7 @@
   trackType=Stdtank;
   trackWidth=20;
   turninplace=0;
-  turnRate=250;
+  turnRate=1000;
   badTargetCategory=FLAG;
 
   weapon1=D10S100mmAP;

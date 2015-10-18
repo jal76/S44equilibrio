@@ -69,7 +69,7 @@
   trackType=Stdtank;
   trackWidth=22;
   turninplace=0;
-  turnRate=150;
+  turnRate=1000;
   badTargetCategory=FLAG;
 
   weapon1=D25122mmHE;

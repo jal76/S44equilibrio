@@ -1,46 +1,47 @@
 [unitinfo] {
-  unitname=GERStuGIII;
-  name=StuG III G;
-  description=Turretless Combat Tank;
-  acceleration=0.042;
+  unitname=GERPanzerIV;
+  name=Pzkpfw IV Ausf G-J;
+  description=Medium Combat Tank;
+  acceleration=0.038;
   airSightDistance=1500;
   brakeRate=0.15;
   buildCostEnergy=0;
-  buildCostMetal=2750;
-  buildTime=2750;
+  buildCostMetal=2875;
+  buildTime=2875;
   canMove=1;
   category=MINETRIGGER HARDVEH;
   //collisionVolumeType=box;
-  //collisionVolumeScales=20 12 37;
-  //collisionVolumeOffsets=0 -1 1;
+  //collisionVolumeScales=20 15 39;
+  //collisionVolumeOffsets=0 -1.7 0.5;
   //collisionVolumeTest=1;
-  corpse=GERStuGIII_Damaged;
+  corpse=GERPanzerIV_Damaged;
   [customParams] {
-    armor_front=83;
-    armor_rear=51;
-    armor_side=30;
-    armor_top=17;
+    armor_front=62;
+    armor_rear=23;
+    armor_side=35;
+    armor_top=15;
+    blockfear=1;
     hasturnbutton=1;
-    lowammolevel=4;
-    maxammo=11;
+    lowammolevel=5;
+    maxammo=17;
     weaponcost=16;
     weaponswithammo=2;
-    soundcategory=GER/Tank/StuG;
+    soundcategory=GER/Tank;
   }
   explodeAs=Vehicle_Explosion_Med;
   footprintX=3;
   footprintZ=3;
-  iconType=selfprop;
+  iconType=medtank;
   leaveTracks=1;
-  mass=2390;
-  maxDamage=2390;
-  maxReverseVelocity=1.48;
+  mass=2600;
+  maxDamage=2600;
+  maxReverseVelocity=1.405;
   maxSlope=2;
-  maxVelocity=2.96;
+  maxVelocity=2.81;
   maxWaterDepth=5;
   movementClass=TANK_Medium;
   noChaseCategory=FLAG AIR MINE;
-  objectName=GERStuGIII.S3O;
+  objectName=GERPanzerIV.S3O;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Med;
   [sfxtypes] {
@@ -58,7 +59,7 @@
   }
   showNanoFrame=0;
   side=GER;
-  sightDistance=720;
+  sightDistance=750;
   smoothAnim=0;
   stealth=1;
   trackOffset=5;
@@ -71,16 +72,22 @@
   badTargetCategory=FLAG;
 
   weapon1=KwK75mmL48HE;
-  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
-  maxAngleDif1=15;
+  weaponMainDir1=0 16 1;
+  maxAngleDif1=210;
   onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
-  weaponMainDir1=0 0 1;
 
   weapon2=KwK75mmL48AP;
-  maxAngleDif2=15;
+  weaponMainDir2=0 16 1;
+  maxAngleDif2=210;
   onlyTargetCategory2=OPENVEH HARDVEH;
-  weaponMainDir2=0 0 1;
 
-  weapon3=.50calproof;
+  weapon3=MG34;
+  weaponMainDir3=0 16 1;
+  maxAngleDif3=210;
+  onlyTargetCategory3=INFANTRY SOFTVEH DEPLOYED;
+
+  weapon4=.50calproof;
+
+  weapon5=Small_Tracer;
 }
 

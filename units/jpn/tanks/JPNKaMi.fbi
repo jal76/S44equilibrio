@@ -69,7 +69,7 @@
   trackType=T60-70-SU76;
   trackWidth=16;
   turninplace=0;
-  turnRate=280;
+  turnRate=800;
   badTargetCategory=FLAG;
 
   weapon1=Type137mmHE;

@@ -1,46 +1,49 @@
 [unitinfo] {
-  unitname=GERStuGIII;
-  name=StuG III G;
-  description=Turretless Combat Tank;
-  acceleration=0.042;
+  unitname=ITASemovente90;
+  name=Semovente da 90/53;
+  description=Heavily Armed Tank Destroyer;
+  acceleration=0.032;
   airSightDistance=1500;
   brakeRate=0.15;
   buildCostEnergy=0;
-  buildCostMetal=2750;
-  buildTime=2750;
+  buildCostMetal=3350;
+  buildTime=3350;
   canMove=1;
-  category=MINETRIGGER HARDVEH;
+  // unprotected back, like Marder/Su-76
+  category=MINETRIGGER OPENVEH;
   //collisionVolumeType=box;
-  //collisionVolumeScales=20 12 37;
-  //collisionVolumeOffsets=0 -1 1;
+  //collisionVolumeScales=20 14 40;
+  //collisionVolumeOffsets=0 0 0;
   //collisionVolumeTest=1;
-  corpse=GERStuGIII_Damaged;
+  corpse=ITASemovente90_Abandoned;
   [customParams] {
-    armor_front=83;
-    armor_rear=51;
-    armor_side=30;
-    armor_top=17;
-    hasturnbutton=1;
+    armor_front=40;
+    armor_rear=0;
+    armor_side=25;
+    armor_top=10;
+    blockfear=1;
     lowammolevel=4;
-    maxammo=11;
-    weaponcost=16;
-    weaponswithammo=2;
-    soundcategory=GER/Tank/StuG;
+    // yes, it was so low irl. This veh often had an armored ammo carrier attached to it to compensate
+    maxammo=6;
+    weaponcost=20;
+    weaponswithammo=1;
+	hasturnbutton=1;
+    soundcategory=ITA/Tank/SP;
   }
   explodeAs=Vehicle_Explosion_Med;
   footprintX=3;
   footprintZ=3;
   iconType=selfprop;
   leaveTracks=1;
-  mass=2390;
-  maxDamage=2390;
+  mass=1700;
+  maxDamage=1700;
   maxReverseVelocity=1.48;
   maxSlope=2;
-  maxVelocity=2.96;
+  maxVelocity=2.56;
   maxWaterDepth=5;
   movementClass=TANK_Medium;
   noChaseCategory=FLAG AIR MINE;
-  objectName=GERStuGIII.S3O;
+  objectName=ITASemovente90.s3o;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Med;
   [sfxtypes] {
@@ -57,7 +60,7 @@
     explosionGenerator9=custom:MEDIUM_MUZZLEDUST;
   }
   showNanoFrame=0;
-  side=GER;
+  side=ITA;
   sightDistance=720;
   smoothAnim=0;
   stealth=1;
@@ -65,21 +68,17 @@
   trackStrength=10;
   trackStretch=1;
   trackType=Stdtank;
-  trackWidth=19;
+  trackWidth=14;
   turninplace=0;
   turnRate=900;
   badTargetCategory=FLAG;
 
-  weapon1=KwK75mmL48HE;
-  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
-  maxAngleDif1=15;
-  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+  weapon1=Ansaldo90mmL53AP;
+  maxAngleDif1=80;
+  // it REALLY had 80 degrees traverse. 40 both ways.
+  onlyTargetCategory1=SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP;
   weaponMainDir1=0 0 1;
 
-  weapon2=KwK75mmL48AP;
-  maxAngleDif2=15;
-  onlyTargetCategory2=OPENVEH HARDVEH;
-  weaponMainDir2=0 0 1;
 
   weapon3=.50calproof;
 }

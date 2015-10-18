@@ -63,7 +63,7 @@
   trackType=Stdtank;
   trackWidth=18;
   turninplace=0;
-  turnRate=280;
+  turnRate=900;
   badTargetCategory=BUILDING FLAG INFANTRY SOFTVEH OPENVEH DEPLOYED;
 
   weapon1=m390mmap;
