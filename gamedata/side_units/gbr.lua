@@ -112,7 +112,7 @@ local gbrunits = {
     "gbrm5halftrack",
 	"gbrstaghound",
     "gbrdaimler",
-    "gbrkangaroo",
+    --"gbrkangaroo",
     "gbrwasp",
 	"gbrjeep",
   },
