@@ -186,7 +186,7 @@ end
 function script.StartMoving()
 	Signal(SIG_MOVE)
 	moving = true
-	if info.numWheels > 0 then
+	if info.numWheels > 10 then
 		StartThread(SpinWheels)
 	end
 	if #info.tracks > 1 then
