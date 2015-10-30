@@ -55,30 +55,29 @@
   badTargetCategory=FLAG;
 
   weapon1=MaximAA;
-  weaponMainDir1=0 16 0;
-  maxAngleDif1=330;
+  weaponMainDir1=0 1 0;
+  maxAngleDif1=30;
   onlyTargetCategory1=AIR;
 
 
   weapon2=MaximAA;
   onlyTargetCategory2=AIR;
-  maxAngleDif2=330;
-  weaponMainDir2=0 16 0;
+  maxAngleDif2=30;
+  weaponMainDir2=0 1 0;
   weaponSlaveTo2=1;
 
   weapon3=MaximAA;
   onlyTargetCategory3=AIR;
-  maxAngleDif3=330;
-  weaponMainDir3=0 16 0;
+  maxAngleDif3=30;
+  weaponMainDir3=0 1 0;
   weaponSlaveTo3=1;
 
   weapon4=MaximAA;
   onlyTargetCategory4=AIR;
-  maxAngleDif4=330;
-  weaponMainDir4=0 16 0;
+  maxAngleDif4=30;
+  weaponMainDir4=0 1 0;
   weaponSlaveTo4=1;
 
-  weapon5=Small_Tracer_Green;
-  onlyTargetCategory5=AIR;
+  weapon5=Small_Tracer;
 }
 

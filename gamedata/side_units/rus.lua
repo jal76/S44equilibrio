@@ -143,6 +143,7 @@ local rusunits =
     "ruszis3_truck",
     "rus61k_truck",
     "rusm30_truck",
+	"rusgazaaa",
     "russu85",
     "russu100",
   },

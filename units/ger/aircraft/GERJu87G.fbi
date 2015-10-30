@@ -44,7 +44,7 @@
   maxPitch=0.4;
   maxRudder=0.0020;
   maxSlope=10;
-  maxVelocity=14;
+  maxVelocity=13.3;
   maxWaterDepth=0;
   myGravity=0.6;
   noChaseCategory=FLAG BUILDING INFANTRY DEPLOYED AIR MINE;

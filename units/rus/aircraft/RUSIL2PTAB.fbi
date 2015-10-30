@@ -86,19 +86,19 @@
   weaponMainDir3=0 0 1;
   weaponSlaveTo3=2;
 
-  weapon4=m2browningamg;
+  weapon4=ShKAS1941;
   maxAngleDif4=30;
   onlyTargetCategory4=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir4=0 0 1;
   weaponSlaveTo4=2;
 
-  weapon5=m2browningamg;
+  weapon5=ShKAS1941;
   maxAngleDif5=30;
   onlyTargetCategory5=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir5=0 0 1;
   weaponSlaveTo5=2;
 
-  weapon6=m2browningaa;
+  weapon6=MaximAA;
   maxAngleDif6=90;
   onlyTargetCategory6=AIR;
   weaponMainDir6=0 .25 -1;

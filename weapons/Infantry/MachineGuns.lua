@@ -151,7 +151,7 @@ local Maxim = MGClass:New{
 -- Maxim AA
 local MaximAA = Maxim:New{
   accuracy	     = 400,
-  burst              = 12,
+  burst              = 10,
   canAttackGround    = false,
   movingAccuracy     = 800,
   reloadTime         = 4.2,
@@ -163,6 +163,16 @@ local MaximAA = Maxim:New{
     no_range_adjust    = true,
     fearid             = 701,
   }
+}
+-- ShKAS1941 (RUS)
+local ShKAS1941 = MGClass:New{
+  burst              = 9,
+  burstRate          = 0.09,
+  name               = [[M1910 Maxim]],
+  range              = 870,
+  sprayAngle         = 960,
+  reloadTime         = 2.2,
+  soundStart         = [[RUS_DP]],
 }
 -- Vickers (GBR)
 local Vickers = Maxim:New{
@@ -450,6 +460,7 @@ return lowerkeys({
   DT = DT,
   Maxim = Maxim,
   MaximAA = MaximAA,
+  ShKAS1941 = ShKAS1941,
   M1919A4Browning = M1919A4Browning,
   M1919A4Browning_Deployed = M1919A4Browning_Deployed,
   Breda30 = Breda30,
