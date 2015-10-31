@@ -34,6 +34,7 @@
   maxVelocity=1.6;
   maxWaterDepth=10;
   minCloakDistance=160;
+  cloakTimeout=1024;
   movementClass=KBOT_Infantry;
   noChaseCategory=BUILDING FLAG INFANTRY SOFTVEH AIR OPENVEH DEPLOYED HARDVEH MINE;
   objectName=jpnobserv.s3o;

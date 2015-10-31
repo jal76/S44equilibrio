@@ -1,39 +1,46 @@
 [unitinfo] {
-  unitname=JPNType99LMG;
-  name=Type 99 Light Machine Gun;
-  description=Long Range Assault/Light Fire Support Unit;
+  unitname=GERObserv;
+  name=Scout;
+  description=Reconnaisance Infantry;
   acceleration=0.375;
   airSightDistance=2500;
   brakeRate=0.9;
   buildCostEnergy=0;
-  buildCostMetal=80;
-  buildTime=600;
+  buildCostMetal=50;
+  buildTime=50;
   canMove=1;
   category=INFANTRY MINETRIGGER;
-  corpse=JPNsoldier_dead;
+  cloakCost=0;
+  cloakCostMoving=0;
+  corpse=GERsoldier_dead;
   [customParams] {
+    dontCount=1;
     feartarget=1;
-    soundcategory=JPN/Infantry;
+    soundcategory=GER/Infantry;
   }
   damageModifier=0.265;
+  fireState=1;
   flankingBonusMax=1.5;
   flankingBonusMin=0.675;
   flankingBonusMobilityAdd=0.01;
   flankingBonusMode=1;
   footprintX=1;
   footprintZ=1;
-  iconType=lightmg;
+  iconType=officer;
+  init_cloaked=1;
   mass=50;
-  maxDamage=90;
-  maxSlope=15;
+  maxDamage=110;
+  maxSlope=40;
   maxVelocity=1.6;
-  maxWaterDepth=5;
+  maxWaterDepth=10;
+  minCloakDistance=160;
+  cloakTimeout=1024;
   movementClass=KBOT_Infantry;
-  noChaseCategory=FLAG AIR MINE;
-  objectName=JPNLMG.S3O;
-  script=InfantryMG.cob;
+  noChaseCategory=BUILDING FLAG INFANTRY SOFTVEH AIR OPENVEH DEPLOYED HARDVEH MINE;
+  objectName=GERObserv.S3O;
   repairable=0;
   seismicDistance=840;
+
   seismicSignature=0;
   [sfxtypes] {
     explosionGenerator0=custom:SMOKEPUFF_GPL_FX;
@@ -42,22 +49,22 @@
     explosionGenerator3=custom:PLACEHOLDER_EFFECT03;
     explosionGenerator4=custom:PLACEHOLDER_EFFECT04;
     explosionGenerator5=custom:PLACEHOLDER_EFFECT05;
-    explosionGenerator6=custom:MG_SHELLCASINGS;
-    explosionGenerator7=custom:MG_MUZZLEFLASH;
+    explosionGenerator6=custom:PLACEHOLDER_EFFECT06;
+    explosionGenerator7=custom:PISTOL_MUZZLEFLASH;
   }
   showNanoFrame=0;
-  sightDistance=840;
+  side=GER;
+  sightDistance=570;
   smoothAnim=0;
   stealth=1;
   turnRate=1010;
   upright=1;
   badTargetCategory=FLAG;
 
-  weapon1=Type97MG;
-  badTargetCategory1=SOFTVEH;
-  onlyTargetCategory1=INFANTRY SOFTVEH DEPLOYED;
-
-  weapon2=Small_Tracer_Green;
-
+  weapon1=binocs;
+  onlyTargetCategory1=NONE;
+  weapon2=WaltherP38;
+  badTargetCategory2=OPENVEH SOFTVEH;
+  onlyTargetCategory2=OPENVEH INFANTRY SOFTVEH DEPLOYED;
 }
 

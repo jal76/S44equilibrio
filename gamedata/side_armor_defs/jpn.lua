@@ -63,6 +63,8 @@ local JPNDefs = {
 	"JPNTeKe",
 	"JPNTeKe_HMG",
 	"JPNKaMi",
+	"JPN_AbTei_turret_57mm_front",
+	"JPN_AbTei_turret_57mm_rear",
 	},
 	
   mediumtanks  =  {

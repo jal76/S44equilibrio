@@ -1,40 +1,46 @@
 [unitinfo] {
-  unitname=JPNRifle;
-  name=Arisaka Type 99;
-  description=General Infantry;
+  unitname=RUSObserv;
+  name=Scout;
+  description=Reconnaisance Infantry;
   acceleration=0.375;
   airSightDistance=2500;
   brakeRate=0.9;
   buildCostEnergy=0;
   buildCostMetal=50;
-  buildTime=300;
+  buildTime=50;
   canMove=1;
   category=INFANTRY MINETRIGGER;
-  corpse=JPNSoldier_dead;
+  cloakCost=0;
+  cloakCostMoving=0;
+  corpse=RUSsoldier_dead;
   [customParams] {
+    dontCount=1;
     feartarget=1;
-    flagCapRate=1;
-    soundcategory=JPN/Infantry;
+    soundcategory=RUS/Infantry;
   }
   damageModifier=0.265;
+  fireState=1;
   flankingBonusMax=1.5;
   flankingBonusMin=0.675;
   flankingBonusMobilityAdd=0.01;
   flankingBonusMode=1;
   footprintX=1;
   footprintZ=1;
-  iconType=rifle;
+  iconType=officer;
+  init_cloaked=1;
   mass=50;
-  maxDamage=90;
-  maxSlope=15;
+  maxDamage=65;
+  maxSlope=40;
   maxVelocity=1.6;
   maxWaterDepth=10;
+  minCloakDistance=160;
+  cloakTimeout=1024;
   movementClass=KBOT_Infantry;
-  noChaseCategory=FLAG AIR MINE;
-  objectName=JPNRifle.S3O;
-  script=gerrifle.cob;
+  noChaseCategory=BUILDING FLAG INFANTRY SOFTVEH AIR OPENVEH DEPLOYED HARDVEH MINE;
+  objectName=RUSObserv.S3O;
   repairable=0;
   seismicDistance=840;
+
   seismicSignature=0;
   [sfxtypes] {
     explosionGenerator0=custom:SMOKEPUFF_GPL_FX;
@@ -44,25 +50,21 @@
     explosionGenerator4=custom:PLACEHOLDER_EFFECT04;
     explosionGenerator5=custom:PLACEHOLDER_EFFECT05;
     explosionGenerator6=custom:PLACEHOLDER_EFFECT06;
-    explosionGenerator7=custom:RIFLE_MUZZLEFLASH;
+    explosionGenerator7=custom:PISTOL_MUZZLEFLASH;
   }
   showNanoFrame=0;
-  side=JPN;
-  sightDistance=840;
+  side=RUS;
+  sightDistance=570;
   smoothAnim=0;
   stealth=1;
   turnRate=1010;
   upright=1;
-  badTargetCategory=FLAG;
+  badTargetCategory=BUILDING FLAG INFANTRY SOFTVEH OPENVEH DEPLOYED;
 
-  weapon1=Arisaka99;
-  maxAngleDif1=170;
-  onlyTargetCategory1=INFANTRY SOFTVEH DEPLOYED;
-  weaponMainDir1=0 0 1;
-
-  weapon2=Type99Grenade;
-  maxAngleDif2=170;
-  onlyTargetCategory2=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP DEPLOYED;
-  weaponMainDir2=0 0 1;
+  weapon1=binocs;
+  onlyTargetCategory1=NONE;
+  weapon2=TT33;
+  badTargetCategory2=OPENVEH SOFTVEH;
+  onlyTargetCategory2=OPENVEH INFANTRY SOFTVEH DEPLOYED;
 }
 

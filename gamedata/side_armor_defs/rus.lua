@@ -69,6 +69,7 @@ local RUSDefs = {
     	"RUST70",
     	"rust28",
 	"RUSValentine",
+	"RUS_BKA_1125_Turret_76mm"
 	},
 	
   mediumtanks  =  {
@@ -78,6 +79,8 @@ local RUSDefs = {
 	"RUSSU85",
     "RUSSU100",	
     "RUSSU122",
+	"RUS_Pr161_Turret_85mm_Front",
+	"RUS_Pr161_Turret_85mm_Rear",
 	},
 	
 	

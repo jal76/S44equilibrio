@@ -111,7 +111,7 @@ local USDefs = {
     "USP51DMustangGA",
   },
   
-  heavyPlanes  =  {
+  hardPlanes  =  {
     --US--
     "USC47",
   },
