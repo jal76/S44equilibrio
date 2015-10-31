@@ -32,6 +32,8 @@
 - scraped my 1st turnrate change, new turnrates are maxvelocity*25
 - moved Kangeroo from standard vehicleyard
 - Su85 and Su100 are 15% cheaper now.
+- cloaked mines, new gazaaa script, SHKAS plane MG, IL2 uses russian weapons, added AA vehicle to soviet TD yard
+- added armor to soviet and jpn armored boats, paradrop drops slower, scout cloak has a delay
 
 
 Unitdef changes:
