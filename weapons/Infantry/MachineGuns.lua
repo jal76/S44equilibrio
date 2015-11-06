@@ -314,6 +314,13 @@ local DShK = HeavyMGClass:New{
 local Twin_DShK = DShK:New{
   reloadTime         = 1.4, -- why not 1.5?
 }
+-- BeresinUBS
+local BeresinUBS = DShK:New{
+  reloadTime         = 1.2
+  burst             = 4,
+  burstRate         = 0.088,
+  sprayAngle        = 1050,
+}
 
 -- M2 Browning  (USA)
 local M2Browning = HeavyMGClass:New{
@@ -474,6 +481,7 @@ return lowerkeys({
   Twin05CalVickers = Twin05CalVickers,
   DShK = DShK,
   Twin_DShK = Twin_DShK,
+  BeresinUBS = BeresinUBS,
   M2Browning = M2Browning,
   M2BrowningAA = M2BrowningAA,
   M2BrowningAMG = M2BrowningAMG,
