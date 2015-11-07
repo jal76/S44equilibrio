@@ -316,7 +316,7 @@ local Twin_DShK = DShK:New{
 }
 -- BeresinUBS
 local BeresinUBS = DShK:New{
-  reloadTime         = 1.2
+  reloadTime         = 1.2,
   burst             = 4,
   burstRate         = 0.088,
   sprayAngle        = 1050,
