@@ -85,6 +85,7 @@ local QF6Pdr57mmAP = QF6Pdr57mm:New(LightMediumGunAPClass, true):New{
 local QF6Pdr57MkIIAHE = QF6Pdr57mm:New(LightMediumGunHEClass, false):New{
 	name		= [[QF 6-Pounder Mk IIA]],
 	-- autoloader, 40 shots per minute
+  	accuracy           = 150,
 	reloadTime	= 1.5,
 	areaOfEffect       = 55,
 	weaponVelocity     = 1100,

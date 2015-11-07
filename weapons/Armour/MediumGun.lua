@@ -282,7 +282,7 @@ local M7AP = M7:New(MediumGunAPClass, true):New{
 local Mk223in50 = MediumGunClass:New{
   areaOfEffect       = 80,
   name               = [[Mk22 3in L/50]],
-  range              = 2000,
+  range              = 1470,
   reloadTime         = 3.5, -- 15 - 20 rounds per minute, as per Russian sources
   soundStart         = [[GEN_105mm]], -- :o
   weaponVelocity     = 926,
@@ -404,7 +404,7 @@ local Ansaldo76mmL40HE = MediumGunClass:New(MediumGunHEClass, true):New{
   soundStart         = [[GER_75mm]],
   weaponVelocity     = 1300,
   damage = {
-    default            = 2150,
+    default            = 1850,
   },  
 }
 

@@ -131,7 +131,7 @@ local SK88mmC30 = MediumHeavyGunClass:New(MediumHeavyGunHEClass, true):New{
   soundStart         = [[GER_88mm]],
   weaponVelocity     = 1250,
   damage = {
-    default            = 1275,
+    default            = 2475,
   },  
 }
 

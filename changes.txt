@@ -34,6 +34,8 @@
 - Su85 and Su100 are 15% cheaper now.
 - cloaked mines, new gazaaa script, SHKAS plane MG, IL2 uses russian weapons, added AA vehicle to soviet TD yard
 - added armor to soviet and jpn armored boats, paradrop drops slower, scout cloak has a delay
+- downscaled ita/JPN planes, yak3 gets proper MG, pr161 will be less dumb, cloaked mines (no decals)
+- downscaled ita/JPM vehicles, US subchaser gun range nerf, ITA vedetta gun damage nerf + nerfed mass, naval 6pdr is more accurate, 47mm AT guns cloak buff, naval 88mm damage buff
 
 
 Unitdef changes:
