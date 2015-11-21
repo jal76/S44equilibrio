@@ -106,6 +106,23 @@ local FlaK4337mmHE = FlaK4337mm:New(AAGunHEClass, true):New{
   range              = 725,
   reloadtime         = 3.3,
 }
+-- FlaK SK C/30 37mm AA Gun (GER) older AA but better vs ground
+local FlaK37mmSKC30 = AAGunClass:New{
+  name               = [[37mm FlaK SK C/30 Anti-Aircraft Gun]],
+  weaponVelocity     = 1840,
+  burst              = 1,
+  damage = {
+    default            = 192, 
+  },
+}
+local FlaK37mmSKC30AA = FlaK37mmSKC30:New(AAGunAAClass, true):New{
+  range              = 1665,
+  reloadtime         = 1.8,
+}
+local FlaK37mmSKC30HE = FlaK37mmSKC30:New(AAGunHEClass, true):New{
+  range              = 925,
+  reloadtime         = 1.8,
+}
 
 -- M-1939 61-K 37mm AA Gun (RUS)
 local M1939_61K37mm = AAGunClass:New{
@@ -137,6 +154,8 @@ return lowerkeys({
   Twin_Bofors40mmHE = Twin_Bofors40mmHE,
   FlaK4337mmAA = FlaK4337mmAA,
   FlaK4337mmHE = FlaK4337mmHE,
+  FlaK37mmSKC30AA = FlaK37mmSKC30AA,
+  FlaK37mmSKC30HE = FlaK37mmSKC30HE,
   M1939_61K37mmAA = M1939_61K37mmAA,
   M1939_61K37mmHE = M1939_61K37mmHE,
 })
