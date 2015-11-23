@@ -39,7 +39,7 @@ local HeavyMGClass = MGClass:New{
   interceptedByShieldType = 16,
   movingAccuracy     = 500,
   targetMoveError    = 0.25,
-  tolerance          = 3000, -- needed?
+  tolerance          = 700, -- needed?
   weaponVelocity     = 3000,
   customparams = {
     fearid             = 401,
@@ -313,8 +313,9 @@ local Twin_DShK = DShK:New{
   reloadTime         = 1.4, -- why not 1.5?
 }
 -- BeresinUBS
-local BeresinUBS = DShK:New{
+local BeresinUBS = HeavyMGClass:New{
   reloadTime         = 0.7,
+  name               = [[BeresinUBS 12.7mm Machine Gun]],
   burst             = 6,
   burstRate         = 0.088,
   sprayAngle        = 1050,
@@ -346,12 +347,12 @@ local M2BrowningAA = M2Browning:New{
 }
 -- M2 Browning Aircraft
 local M2BrowningAMG = M2Browning:New{
-  burst             = 3,
+  burst             = 9,
   burstRate         = 0.085,
   range             = 900,
   leadlimit	    = 400,
   heightBoostFactor = 0,
-  reloadTime        = 0.3,
+  reloadTime        = 0.9,
   soundStart        = [[US_50CALAir]],
   sprayAngle        = 1050,
   tolerance         = 1100, --?
