@@ -36,6 +36,9 @@
 - added armor to soviet and jpn armored boats, paradrop drops slower, scout cloak has a delay
 - downscaled ita/JPN planes, yak3 gets proper MG, pr161 will be less dumb, cloaked mines (no decals)
 - downscaled ita/JPM vehicles, US subchaser gun range nerf, ITA vedetta gun damage nerf + nerfed mass, naval 6pdr is more accurate, 47mm AT guns cloak buff, naval 88mm damage buff
+- new gun for raumboot, cheaper rusbka 1125
+- new sound for BeresinUBS and changed weapon stats, removed weapon type cannon from some air MGs
+
 
 
 Unitdef changes:

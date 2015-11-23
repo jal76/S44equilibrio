@@ -245,7 +245,6 @@ local BredaSafat03 = MGClass:New{
   reloadTime         = 0.55,
   sprayAngle        = 900,
   soundStart         = [[ITA_Breda30]],
-  weaponType         = [[Cannon]],
   customparams = {
     no_range_adjust    = true,
   }
@@ -286,7 +285,6 @@ local TE4 = MGClass:New{
   predictBoost       = 0.2,
   reloadTime         = 3,
   soundStart         = [[JPN_TE4_MG]],
-  weaponType         = [[Cannon]],
   customparams = {
     no_range_adjust    = true,
     fearid             = 701,
@@ -316,10 +314,11 @@ local Twin_DShK = DShK:New{
 }
 -- BeresinUBS
 local BeresinUBS = DShK:New{
-  reloadTime         = 1.2,
-  burst             = 4,
+  reloadTime         = 0.7,
+  burst             = 6,
   burstRate         = 0.088,
   sprayAngle        = 1050,
+  soundStart         = [[RUS_BeresinUBS]],
 }
 
 -- M2 Browning  (USA)
@@ -356,7 +355,6 @@ local M2BrowningAMG = M2Browning:New{
   soundStart        = [[US_50CALAir]],
   sprayAngle        = 1050,
   tolerance         = 1100, --?
-  weaponType         = [[Cannon]],
   customparams = {
     no_range_adjust    = true,
   }
@@ -400,7 +398,6 @@ local BredaSafat05 = HeavyMGClass:New{
   reloadTime         = 1.2,
   sprayAngle        = 1050,
   soundStart         = [[ITA_breda12_7mm]],
-  weaponType         = [[Cannon]],
   customparams = {
     no_range_adjust    = true,
   }
@@ -444,7 +441,6 @@ local Type1Ho103 = HeavyMGClass:New{
   reloadTime         = 0.8,
   soundStart         = [[US_50CALAir]],
   sprayAngle         = 1050,
-  weaponType         = [[Cannon]],
   customparams = {
     no_range_adjust    = true,
   }
