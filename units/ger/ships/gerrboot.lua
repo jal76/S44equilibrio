@@ -15,7 +15,7 @@ local GER_RBoot = ArmedBoat:New{
 	movementClass			= "BOAT_LightPatrol",
 	objectName				= "GERRboot.s3o",
 	soundCategory			= "GERBoat",
-	transportCapacity		= 3, -- 3 x 1fpu turrets
+	transportCapacity		= 4, -- 4 x 1fpu turrets
 	turnRate				= 205,	
 	weapons = {	
 		[1] = { -- give primary weapon for ranging
@@ -29,6 +29,7 @@ local GER_RBoot = ArmedBoat:New{
 			"GER_RBoot_Turret_37mm", 
 			"GER_RBoot_Turret_20mm",
 			"GER_RBoot_Turret_20mm",
+			"GER_RBoot_Turret_MG42",
 		},
 		deathanim = {
 			["z"] = {angle = 45, speed = 15},
@@ -90,9 +91,34 @@ local GER_RBoot_Turret_20mm = OpenBoatTurret:New{
 		facing					= 2,
     },
 }
-
+local GER_RBoot_Turret_MG42 = OpenBoatTurret:New{
+	name					= "MG42",
+	description				= "MG42 with sandbags",
+	objectName				= "gerrboot_turret_mg42.s3o",
+  	weapons = {	
+		[1] = {
+			name				= "MG42AA",
+			maxAngleDif			= 70,
+			onlyTargetCategory	= "AIR",
+			mainDir		= [[0 0 1]],
+		},
+		[2] = {
+			name				= "MG42_Deployed",
+			maxAngleDif			= 70,
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			mainDir		= [[0 0 1]],
+		},
+	},
+	customparams = {
+		turretturnspeed			= 29,
+		elevationspeed			= 18,
+		barrelrecoildist		= 0.1,
+		aaweapon				= 1,
+    },
+}
 return lowerkeys({
 	["GERRBoot"] = GER_RBoot,
 	["GER_RBoot_Turret_37mm"] = GER_RBoot_Turret_37mm,
 	["GER_RBoot_Turret_20mm"] = GER_RBoot_Turret_20mm,
+	["GER_RBoot_Turret_MG42"] = GER_RBoot_Turret_MG42,
 })
