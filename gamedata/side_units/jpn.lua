@@ -161,6 +161,7 @@ local jpnunits =
 		"jpntokudaihatsu",
 		"jpntypeno1auxsc",
 		"jpnabtei",
+		"jpnt14",
 	},
 	jpnboatyardlarge =
 	{
@@ -170,6 +171,7 @@ local jpnunits =
 		"jpntokudaihatsu",
 		"jpntypeno1auxsc",
 		"jpnabtei",
+		"jpnt14",
 		"jpnseta",
 	},
 	jpnsupplydepot =
