@@ -1,6 +1,6 @@
 [unitinfo] {
-  unitname=JPNSniper;
-  name=Japanese Sniper;
+  unitname=ITASniper;
+  name=Italian Sniper;
   description=Precise Fire Support;
   acceleration=0.375;
   airSightDistance=2500;
@@ -12,11 +12,11 @@
   category=INFANTRY MINETRIGGER;
   cloakCost=0;
   cloakCostMoving=0;
-  corpse=JPNsoldier_dead;
+  corpse=ITAsoldier_dead;
   [customParams] {
     dontCount=1;
     feartarget=1;
-    soundcategory=JPN/Infantry;
+    soundcategory=ITA/Infantry;
   }
   damageModifier=0.265;
   decloakOnFire=1;
@@ -29,7 +29,7 @@
   iconType=sniper;
   init_cloaked=1;
   mass=50;
-  maxDamage=95;
+  maxDamage=80;
   maxSlope=25;
   maxVelocity=1.15;
   maxWaterDepth=15;
@@ -37,10 +37,12 @@
   cloakTimeout=48;
   movementClass=KBOT_Infantry;
   noChaseCategory=BUILDING FLAG SOFTVEH AIR OPENVEH HARDVEH MINE;
-  objectName=JPNSniper.S3O;
-  script=gersniper.cob;
+  //objectName=ITASniper.S3O;
+  objectName=itasniper.s3o;
+  script=usgisniper.cob;
   repairable=0;
   seismicDistance=0;
+
   seismicSignature=0;
   [sfxtypes] {
     explosionGenerator0=custom:SMOKEPUFF_GPL_FX;
@@ -53,7 +55,7 @@
     explosionGenerator7=custom:RIFLE_MUZZLEFLASH;
   }
   showNanoFrame=0;
-  side=JPN;
+  side=ITA;
   sightDistance=770;
   smoothAnim=0;
   stealth=1;
@@ -61,8 +63,7 @@
   upright=1;
   badTargetCategory=BUILDING OPENVEH FLAG SOFTVEH;
 
-  weapon1=Arisaka99Sniper;
-  badTargetCategory1=OPENVEH SOFTVEH;
+  weapon1=Mod91Sniper;
   maxAngleDif1=170;
   onlyTargetCategory1=INFANTRY DEPLOYED;
   weaponMainDir1=0 0 1;

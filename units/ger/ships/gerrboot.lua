@@ -104,7 +104,7 @@ local GER_RBoot_Turret_MG42 = OpenBoatTurret:New{
 		},
 		[2] = {
 			name				= "MG42_Deployed",
-			maxAngleDif			= 70,
+			maxAngleDif			= 100,
 			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
 			mainDir		= [[0 0 1]],
 		},

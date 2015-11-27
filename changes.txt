@@ -41,6 +41,7 @@
 - improved jpn 75mmm sound, heavy MG has less tolerance , changed M2browningAMG stats
 - fixed jpnkatsu unload, added MG42 to raumboot, reduced cruisealt of gbrhorsa
 - added jpnt14 MTB
+- buffed sight and cloak delay of sniper
 
 
 Unitdef changes:

@@ -1,7 +1,7 @@
 [unitinfo] {
-  unitname=JPNSniper;
-  name=Japanese Sniper;
-  description=Precise Fire Support;
+  unitname=GERSniper;
+  name=Heckenschutze;
+  description=Sniper;
   acceleration=0.375;
   airSightDistance=2500;
   brakeRate=0.9;
@@ -12,11 +12,11 @@
   category=INFANTRY MINETRIGGER;
   cloakCost=0;
   cloakCostMoving=0;
-  corpse=JPNsoldier_dead;
+  corpse=gersoldier_dead;
   [customParams] {
     dontCount=1;
     feartarget=1;
-    soundcategory=JPN/Infantry;
+    soundcategory=GER/Infantry/Sniper;
   }
   damageModifier=0.265;
   decloakOnFire=1;
@@ -29,18 +29,17 @@
   iconType=sniper;
   init_cloaked=1;
   mass=50;
-  maxDamage=95;
+  maxDamage=110;
   maxSlope=25;
   maxVelocity=1.15;
-  maxWaterDepth=15;
+  maxWaterDepth=20;
   minCloakDistance=220;
-  cloakTimeout=48;
   movementClass=KBOT_Infantry;
   noChaseCategory=BUILDING FLAG SOFTVEH AIR OPENVEH HARDVEH MINE;
-  objectName=JPNSniper.S3O;
-  script=gersniper.cob;
+  objectName=GERSniper.S3O;
   repairable=0;
   seismicDistance=0;
+
   seismicSignature=0;
   [sfxtypes] {
     explosionGenerator0=custom:SMOKEPUFF_GPL_FX;
@@ -53,17 +52,17 @@
     explosionGenerator7=custom:RIFLE_MUZZLEFLASH;
   }
   showNanoFrame=0;
-  side=JPN;
-  sightDistance=770;
+  side=GER;
+  sightDistance=570;
   smoothAnim=0;
   stealth=1;
   turnRate=1010;
   upright=1;
   badTargetCategory=BUILDING OPENVEH FLAG SOFTVEH;
 
-  weapon1=Arisaka99Sniper;
-  badTargetCategory1=OPENVEH SOFTVEH;
+  weapon1=K98kscope;
   maxAngleDif1=170;
   onlyTargetCategory1=INFANTRY DEPLOYED;
   weaponMainDir1=0 0 1;
 }
+
