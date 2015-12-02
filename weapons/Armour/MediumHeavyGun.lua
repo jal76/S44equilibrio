@@ -126,10 +126,10 @@ local KwK88mmL71AP = KwK88mmL71:New(MediumHeavyGunAPClass, true):New{
 local SK88mmC30 = MediumHeavyGunClass:New(MediumHeavyGunHEClass, true):New{
   areaOfEffect       = 85,
   name               = [[8.8cm SK C/30 Naval Gun]],
-  range              = 2110,
+  range              = 1910,
   reloadTime         = 4, -- 15rpm
   soundStart         = [[GER_88mm]],
-  weaponVelocity     = 1250,
+  weaponVelocity     = 1550,
   damage = {
     default            = 2475,
   },  
