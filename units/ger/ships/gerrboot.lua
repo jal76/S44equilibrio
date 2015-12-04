@@ -49,8 +49,8 @@ local GER_RBoot_Turret_37mm = OpenBoatTurret:New{
 		},
 	},
 	customparams = {
-		maxammo					= 22,
-		weaponcost				= 3,
+		maxammo					= 32,
+		weaponcost				= 2,
 		weaponswithammo			= 1,
 
 		barrelrecoildist		= 4,

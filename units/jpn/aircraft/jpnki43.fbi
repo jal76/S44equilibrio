@@ -1,11 +1,11 @@
 [UNITINFO] {
-  UnitName=RUSYak3;
-  name=Yak-9U;
+  UnitName=JPNKi43;
+  name=Ki-43 Hayabusa;
   description=Interceptor;
   airSightDistance=4000;
   brakeRate=5;
   buildCostMetal=985;
-  buildPic=RUSYak3.png;
+  buildPic=JPNKi43.png;
   buildTime=985;
   canAttack=1;
   canDropFlare=1;
@@ -22,7 +22,7 @@
     feartarget=1;
     planevoice=1;
     proptexture=prop3.tga;
-    SoundCategory=RUS/Air/Fighter;
+    SoundCategory=JPN/Air/Fighter;
   }
   explodeAs=Vehicle_Explosion_Med;
   footprintX=4;
@@ -31,20 +31,20 @@
   idleAutoHeal=2;
   idleTime=1800;
   maneuverleashlength=1280;
-  maxAcc=0.824;
-  maxAileron=0.0048;
+  maxAcc=0.757;
+  maxAileron=0.0044;
   maxBank=1;
   maxDamage=235;
   maxElevator=0.0031;
   maxFuel=120;
   maxPitch=1;
-  maxRudder=0.0033;
+  maxRudder=0.0043;
   maxSlope=10;
-  maxVelocity=21;
+  maxVelocity=19.3;
   maxWaterDepth=0;
   myGravity=0.6;
   noChaseCategory=FLAG MINE BUILDING INFANTRY FLAG SOFTVEH HARDVEH OPENVEH SHIP DEPLOYED;
-  objectName=RUSYak3.S3O;
+  objectName=JPNKi43.s3o;
   radarDistance=1000;
   repairable=0;
   seismicSignature=0;
@@ -56,31 +56,23 @@
     explosionGenerator3=custom:MG_SHELLCASINGS;
   }
   showNanoFrame=0;
-  Side=RUS;
+  Side=JPN;
   sightDistance=0;
   smoothAnim=1;
   stealth=1;
   turnRate=50;
 
-  weapon1=BeresinUBS;
+  weapon1=Type1Ho103;
   maxAngleDif1=10;
   onlyTargetCategory1=INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir1=0 0 1;
 
-  weapon2=BeresinUBS;
+  weapon2=Type1Ho103;
   maxAngleDif2=10;
   onlyTargetCategory2=INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir2=0 0 1;
   weaponSlaveTo2=1;
 
-  weapon3=ShVAK20mm;
-  maxAngleDif3=10;
-  onlyTargetCategory3=INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
-  weaponMainDir3=0 0 1;
-  weaponSlaveTo3=1;
-
-  weapon4=Medium_Tracer_Green;
-
-  weapon5=Large_Tracer_Green;
+  weapon3=Medium_Tracer;
 }
 
