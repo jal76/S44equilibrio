@@ -42,7 +42,10 @@
 - fixed jpnkatsu unload, added MG42 to raumboot, reduced cruisealt of gbrhorsa
 - added jpnt14 MTB
 - buffed sight and cloak delay of sniper
-
+- reduced range of germal by 10%, germal is 25% more expensive
+- fighter planes dont chase ground units on themselfes anymore, small yak9 ruder buff
+- fiat cr 42 is back with 12kg bombs
+- added new script for gazAAA
 
 Unitdef changes:
 --------------------
