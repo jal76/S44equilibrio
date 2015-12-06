@@ -25,6 +25,20 @@ local itaSorties = {
 		buildTime = 4500,
 		side = "ita",
 	},
+	ita_sortie_light = {
+		members = {
+			"itafiatcr_42",
+			"itafiatcr_42",
+		},
+		weight = 1,
+		delay = 30,
+		name = "light Ground-Attack Sortie",
+		description = "2 x Fiat Cr.42 armed with 12kg fragmentation Bomblets",
+		buildCostMetal = 2800,
+		buildPic = "itafiatcr42.png",
+		buildTime = 2800,
+		side = "ita",
+	},
 	ita_sortie_fighter = {
 		members = {
 			"itareggiane2005",

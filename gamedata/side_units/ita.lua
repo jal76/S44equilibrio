@@ -203,6 +203,7 @@ local itaunits =
 	"ita_sortie_recon",
 	"ita_sortie_interceptor",
 	"ita_sortie_fighter",
+	"ita_sortie_light",
 	"ita_sortie_attack",
 	"ita_sortie_fighter_bomber",
 

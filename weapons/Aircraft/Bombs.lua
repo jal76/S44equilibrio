@@ -134,7 +134,28 @@ local A_tkbomb = BombClass:New{
     bunkers            = 500,
   }
 }
-
+--  12 kg anti-personnel Bomb Type F  (ITA)
+local TypeF12kg = BombClass:New{
+  areaOfEffect       = 86,
+  explosionSpeed     = 12,
+  burst              = 2,
+  burstrate          = 0.25,
+  edgeEffectiveness  = 0.05,
+  explosionGenerator = [[custom:HE_medium]], -- overrides default
+  model              = [[MortarShell.S3O]],
+  weaponVelocity     = 250,
+  name               = [[12kg Fragmentation Bomblets]],
+  projectiles        = 2,
+  range              = 500,
+  soundHitDry        = [[GEN_Explo_2]],
+  sprayangle         = 2000,
+  customparams = {
+    damagetype         = [[explosive]], -- overrides default
+  },
+  damage = {
+    default            = 470, 
+  }
+}
 -- Return only the full weapons
 return lowerkeys({
   Bomb = Bomb,
@@ -142,5 +163,6 @@ return lowerkeys({
   Bomb50kg = Bomb50kg,
   PTAB = PTAB,
   A_tkbomb = A_tkbomb,
+  TypeF12kg = TypeF12kg,
   V1 = V1,
 })
