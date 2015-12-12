@@ -20,7 +20,6 @@ local AirACClass = Weapon:New{
   turret             = true,
   weaponType         = [[Cannon]],
   customparams = {
-    armor_hit_side     = [[top]],
     no_range_adjust    = true,
   },
 }
@@ -29,8 +28,11 @@ local AirACHEClass = Weapon:New{
   explosionGenerator = [[custom:HE_XSmall]],
   name               = [[HE Shell]],
   areaOfEffect       = 4,
+  weaponType         = [[LaserCannon]],
   customparams = {
     damagetype         = [[explosive]],
+    cegflare           = "Cannon_MUZZLEFLASH",
+    flareonshot        = true,
     fearaoe            = 45,
     fearid             = 301,
   },
@@ -101,15 +103,15 @@ local MG15120mm = AirACClass:New(AirACHEClass, true):New{
 }
 
 -- MG151/15 15mm (GER)
--- treated like a machinegun in game, but
--- this derives from the above 20mm
 local MG15115mm = AirACClass:New(AirACHEClass, true):New{
   areaOfEffect       = 8,
+  burst		     = 6,
+  range              = 910,
+  weaponVelocity     = 2100,
   burstRate          = 0.08,
   explosionGenerator = [[custom:Bullet]],
   name               = [[15mm MG 151/15 Aircraft Cannon]],  
-  predictBoost       = 0.75,
-  reloadTime         = 0.8, -- why so different?
+  reloadTime         = 0.8,
   soundStart         = [[GER_15mmAir]],
   damage = {
     default            = 40,
@@ -123,7 +125,7 @@ local ShVAK20mm = AirACClass:New(AirACHEClass, true):New{
   burstRate          = 0.085,
   name               = [[20mm ShVAK Aircraft Cannon]],
   range              = 900,
-  reloadtime         = 1,
+  reloadtime         = 0.7,
   soundStart         = [[RUS_20mm]],
   weaponVelocity     = 2600,
   damage = {
