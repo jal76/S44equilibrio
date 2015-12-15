@@ -46,7 +46,10 @@
 - fighter planes dont chase ground units on themselfes anymore, small yak9 ruder buff
 - fiat cr 42 is back with 12kg bombs
 - added new script for gazAAA
-
+- fixed mg15mm, some minor tweaks to 12kgbombs and aircannons
+- adjusted costs of some AA, nerfed HVAR and BK37, MustangGA is a bit slower
+- reduced cost of mustangGA and typhoon sortie because they dont always kill with 1 hit
+- rusgazaaa turret turn boost
 Unitdef changes:
 --------------------
 GBRM10Achilles:

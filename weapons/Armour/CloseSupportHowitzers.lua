@@ -84,6 +84,18 @@ local M4105mmHE = M4105mm:New(CSHowitzerHEClass, true):New{
 }
 local M4105mmSmoke = M4105mm:New(CSHowitzerSmokeClass, true)
 
+-- Mk22 3inch (USA)
+local Mk223in50smoke = CSHowitzerClass:New(CSHowitzerSmokeClass, true):New{
+  areaOfEffect       = 8,
+  name               = [[Mk22 3in L/50]],
+  range              = 1470,
+  reloadTime         = 3.5, -- 15 - 20 rounds per minute, as per Russian sources
+  soundStart         = [[GEN_105mm]], -- :o
+  weaponVelocity     = 926,
+  damage = {
+    default            = 14,
+  },  
+}
 
 -- Return only the full weapons
 return lowerkeys({
@@ -93,4 +105,5 @@ return lowerkeys({
   -- M4 105mm
   M4105mmHE = M4105mmHE,
   M4105mmSmoke = M4105mmSmoke,
+  Mk223in50smoke = Mk223in50smoke,
 })

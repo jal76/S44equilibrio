@@ -279,7 +279,7 @@ local M7AP = M7:New(MediumGunAPClass, true):New{
 }
 
 -- Mk22 3inch (USA)
-local Mk223in50 = MediumGunClass:New{
+local Mk223in50 = MediumGunClass:New(MediumGunHEClass, true):New{
   areaOfEffect       = 80,
   name               = [[Mk22 3in L/50]],
   range              = 1470,
@@ -287,9 +287,9 @@ local Mk223in50 = MediumGunClass:New{
   soundStart         = [[GEN_105mm]], -- :o
   weaponVelocity     = 926,
   damage = {
-    default            = 1152,
+    default            = 1452,
   },  
-}:New(MediumGunHEClass, true)
+}
 
 
 -- Ansaldo L/18 75mm (ITA)

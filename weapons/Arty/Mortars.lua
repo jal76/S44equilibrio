@@ -67,7 +67,7 @@ local ML3InMortarSmoke = ML3InMortar:New(MortarSmokeClass, true)
 local BL4InMortar = MortarClass:New{
 	name			 = [[BL 4 Inch Mortar]],
 	range			 = 1450,
-	commandFire		 = true,
+	commandFire		 = false,
 }
 local BL4InMortarSmoke = BL4InMortar:New(MortarSmokeClass, true)
 

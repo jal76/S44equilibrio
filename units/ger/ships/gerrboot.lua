@@ -3,8 +3,8 @@ local GER_RBoot = ArmedBoat:New{
 	description				= "Minesweeper (light patrol ship)",
 	acceleration			= 0.2,
 	brakeRate				= 0.15,
-	buildCostMetal			= 2170,
-	buildTime				= 2170,
+	buildCostMetal			= 2570,
+	buildTime				= 2570,
 	collisionVolumeOffsets	= [[0.0 -16.0 -15.0]],
 	collisionVolumeScales	= [[40.0 20.0 260.0]],
 	corpse					= "GERRBoot_dead",
@@ -24,6 +24,11 @@ local GER_RBoot = ArmedBoat:New{
 		},
 	},
 	customparams = {
+		smokegenerator		=	1,
+		smokeradius		=	280,
+		smokeduration		=	320,
+		smokecooldown		=	130,
+		smokeceg		=	"SMOKESHELL_Medium",
 		soundcategory = "GER/Boat",
 		children = {
 			"GER_RBoot_Turret_37mm", 
