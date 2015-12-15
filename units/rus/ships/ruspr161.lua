@@ -78,7 +78,7 @@ local RUS_Pr161_Turret_85mm_Front = EnclosedBoatTurret:New{
 		weaponswithammo			= 1,
 		barrelrecoildist		= 7.5,
 		barrelrecoilspeed		= 10,
-		turretturnspeed			= 15,
+		turretturnspeed			= 20,
 		elevationspeed			= 20,
     },
 }

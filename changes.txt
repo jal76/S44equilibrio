@@ -50,6 +50,8 @@
 - adjusted costs of some AA, nerfed HVAR and BK37, MustangGA is a bit slower
 - reduced cost of mustangGA and typhoon sortie because they dont always kill with 1 hit
 - rusgazaaa turret turn boost
+- readded smokescreens to some boats, minor boat stat changes, 4inch smokemortar works
+
 Unitdef changes:
 --------------------
 GBRM10Achilles:
