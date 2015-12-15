@@ -289,9 +289,9 @@ local function ResolveDirection(headingPiece, pitchPiece)
 		end
 	end
 	if topDirection then
-		Turn(headingPiece, y_axis, topDirection[1], info.turretTurnSpeed)
+		Turn(headingPiece, y_axis, topDirection[1], info.turretTurnSpeed+15)
 		if pitchPiece then
-			Turn(pitchPiece, x_axis, -topDirection[2], info.elevationSpeed)
+			Turn(pitchPiece, x_axis, -topDirection[2], info.elevationSpeed+10)
 		end
 	end
 end
