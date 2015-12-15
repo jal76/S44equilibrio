@@ -31,7 +31,6 @@ local AirATGunClass = Weapon:New{
   weaponType         = [[Cannon]],
   customparams = {
     no_range_adjust    = true,
-    armor_hit_side     = [[top]],
     damagetype         = [[kinetic]],
   },
 }
@@ -40,18 +39,18 @@ local AirATGunClass = Weapon:New{
 
 -- Bordkanone BK 37 (GER)
 local BK37mmAP = AirATGunClass:New{
-  areaOfEffect       = 12,
+  areaOfEffect       = 6,
   --burst              = 1,
   --burstrate          = 0.375,
   name               = [[BK-37 37mm Semi-Automatic Cannon]],
-  range              = 900,
-  reloadtime         = 0.4,
+  range              = 800,
+  reloadtime         = 0.35,
   soundStart         = [[US_37mm]],
   weaponVelocity     = 1768,
   customparams = {
     --constant penetration since aircraft engagement range can't be realistically controlled
-    armor_penetration_1000m = 60,
-    armor_penetration_100m = 60,
+    armor_penetration_1000m = 50,
+    armor_penetration_100m = 70,
   },
   damage = {
     default            = 825,
