@@ -50,9 +50,9 @@ local gbrSorties = {
 		weight = 1,
 		name = "Attack Sortie",
 		description = "2 x Hawker Typhoon Mk.IB",
-		buildCostMetal = 6000,
+		buildCostMetal = 5000,
 		buildPic = "GBRTyphoon.png",
-		buildTime = 6000,
+		buildTime = 5000,
 	},
 
 	gbr_sortie_glider_horsa = {
