@@ -23,6 +23,7 @@ local RUS_Pr161 = ArmedBoat:New{
 		},
 	},
 	customparams = {
+		damageGroup			= 'armoredboat',
 		soundCategory			= "RUS/Boat",
 		killvoicecategory		= "RUS/Boat/RUS_BOAT_KILL",
 		killvoicephasecount		= 3,

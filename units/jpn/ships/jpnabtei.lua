@@ -24,6 +24,7 @@ local JPN_AbTei = ArmedBoat:New{
 		},
 	},
 	customparams = {
+		damageGroup			= 'armoredboat',
 		soundcategory = "JPN/Boat",
 		children = {
 			"JPN_AbTei_turret_57mm_front",
