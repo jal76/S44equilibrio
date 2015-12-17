@@ -9,14 +9,13 @@
   buildCostMetal=1100;
   buildTime=1100;
   canMove=1;
-  canattack=0;
+  canattack=1;
   category=MINETRIGGER SOFTVEH;
   corpse=GERKubel_Destroyed;
   //collisionVolumeScales=16 12 43;
   //collisionVolumeOffsets=0 0 2;
   //collisionVolumeTest=1;
   [customParams] {
-    hasturnbutton=1;
     soundcategory=GER/Vehicle;
   }
   explodeAs=Vehicle_Explosion_Sm;
@@ -61,7 +60,9 @@
   badTargetCategory=FLAG;
 
   weapon1=binocs2;
-  onlyTargetCategory1=NONE;
+  weaponMainDir1=0 0 1;
+  maxAngleDif1=20;
+  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
 
 }
 

@@ -15,7 +15,6 @@
   //collisionVolumeOffsets=0 0 2;
   //collisionVolumeTest=1;
   [customParams] {
-    hasturnbutton=1;
     soundcategory=GBR/Vehicle;
   }
   explodeAs=Vehicle_Explosion_Sm;
@@ -33,7 +32,7 @@
   noChaseCategory=FLAG AIR MINE HARDVEH BUILDING;
   objectName=USJeep.S3O;
   script=USJeep.lua;
-  canattack=0;
+  canattack=1;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
   [sfxtypes] {
@@ -61,7 +60,9 @@
   badTargetCategory=FLAG;
 
   weapon1=binocs2;
-  onlyTargetCategory1=NONE;
+  weaponMainDir1=0 0 1;
+  maxAngleDif1=20;
+  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
 
 }
 

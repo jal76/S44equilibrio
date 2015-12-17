@@ -40,6 +40,7 @@ local Binocs2 = OpticClass:New{
   name               = [[Advanced Binoculars]],
   range              = 2250,
   tolerance		= 3000,
+  weaponVelocity     = 800,
 }
 
 
