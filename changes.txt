@@ -51,6 +51,10 @@
 - reduced cost of mustangGA and typhoon sortie because they dont always kill with 1 hit
 - rusgazaaa turret turn boost
 - readded smokescreens to some boats, minor boat stat changes, 4inch smokemortar works
+- gbrhorsa flys a little higher, smokescreen for rusbka
+- reduced worktime of ruspshack , add armoredboat damagegroup to jpnabtei,rusbka1125 and ruspr161, made enclosedturrets more resistant
+- added attack for scoutcars to make scouting easier, improved binoc2
+- Ro gets 50% more expensive
 
 Unitdef changes:
 --------------------
