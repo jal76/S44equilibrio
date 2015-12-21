@@ -190,7 +190,7 @@ local CannoneDa47mml32 = LightGunClass:New{
 }
 
 local CannoneDa47mml32AP = CannoneDa47mml32:New(LightGunAPClass, true):New{
-  weaponVelocity       = 1000,
+  weaponVelocity       = 1250,
   customparams = {
     armor_penetration_1000m = 32,
     armor_penetration_100m  = 57,
@@ -202,7 +202,7 @@ local CannoneDa47mml32AP = CannoneDa47mml32:New(LightGunAPClass, true):New{
 
 local CannoneDa47mml32HEAT = CannoneDa47mml32:New(LightGunHEATClass, true):New{
   range                = 637,
-  weaponVelocity       = 800,
+  weaponVelocity       = 1000,
   customparams = {
     armor_penetration       = 75,
   },

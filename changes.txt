@@ -55,6 +55,7 @@
 - reduced worktime of ruspshack , add armoredboat damagegroup to jpnabtei,rusbka1125 and ruspr161, made enclosedturrets more resistant
 - added attack for scoutcars to make scouting easier, improved binoc2
 - Ro gets 50% more expensive
+- tanktransportboats get smokescreen,increased bullet velocity of cannone da 47
 
 Unitdef changes:
 --------------------
