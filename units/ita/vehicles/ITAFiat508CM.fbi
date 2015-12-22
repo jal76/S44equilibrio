@@ -62,7 +62,7 @@
   weapon1=binocs2;
   weaponMainDir1=0 0 1;
   maxAngleDif1=20;
-  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+  onlyTargetCategory1=NONE;
 
 }
 
