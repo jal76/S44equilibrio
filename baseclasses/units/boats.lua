@@ -65,6 +65,10 @@ local BoatChild = Boat:New{ -- a boat turret
 
 local EnclosedBoatTurret = BoatChild:New{
 	maxDamage			= 3200,
+	mass				= 300,
+	customparams = {
+		damageGroup			= 'armoredboatturrets',
+	}
 }
 
 local OpenBoatTurret = BoatChild:New{
