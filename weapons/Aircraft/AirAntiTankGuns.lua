@@ -30,7 +30,7 @@ local AirATGunClass = Weapon:New{
   dynDamageInverted  = true,
   weaponType         = [[Cannon]],
   customparams = {
-    no_range_adjust    = true,
+    no_range_adjust    = false,
     damagetype         = [[kinetic]],
   },
 }
@@ -70,7 +70,7 @@ local Ho40157mm = AirATGunClass:New{
     damagetype         = [[shapedcharge]],
   },
   damage = {
-    default            = 1341,
+    default            = 2641,
   },
 }
 
