@@ -24,11 +24,6 @@ local JPN_TypeNo1AuxSC = ArmedBoat:New{
 		},
 	},
 	customparams = {
-		smokegenerator		=	1,
-		smokeradius		=	350,
-		smokeduration		=	320,
-		smokecooldown		=	130,
-		smokeceg		=	"SMOKESHELL_Medium",
 		soundcategory = "JPN/Boat",
 		children = {
 			"JPN_SC_turret_25mm_front",

@@ -23,11 +23,6 @@ local GBR_LCGM = ArmedBoat:New{
 		},
 	},
 	customparams = {
-		smokegenerator		=	1,
-		smokeradius		=	400,
-		smokeduration		=	320,
-		smokecooldown		=	130,
-		smokeceg		=	"SMOKESHELL_Medium",
 		soundcategory		= "GBR/Boat",
 		children = {
 			"GBR_LCGM_Turret_25pdr_Left",

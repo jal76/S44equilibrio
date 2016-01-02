@@ -24,11 +24,6 @@ local GER_RBoot = ArmedBoat:New{
 		},
 	},
 	customparams = {
-		smokegenerator		=	1,
-		smokeradius		=	280,
-		smokeduration		=	320,
-		smokecooldown		=	130,
-		smokeceg		=	"SMOKESHELL_Medium",
 		soundcategory = "GER/Boat",
 		children = {
 			"GER_RBoot_Turret_37mm", 

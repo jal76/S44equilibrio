@@ -24,11 +24,6 @@ local RUS_BKA_1125 = ArmedBoat:New{
 		},
 	},
 	customparams = {
-		smokegenerator		=	1,
-		smokeradius		=	280,
-		smokeduration		=	320,
-		smokecooldown		=	130,
-		smokeceg		=	"SMOKESHELL_Medium",
 		damageGroup			= 'armoredboat',
 		soundCategory			= "RUS/Boat",
 		killvoicecategory		= "RUS/Boat/RUS_BOAT_KILL",

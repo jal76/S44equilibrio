@@ -23,11 +23,6 @@ local US_LCSL = ArmedBoat:New{
 		},
 	},
 	customparams = {
-		smokegenerator		=	1,
-		smokeradius		=	400,
-		smokeduration		=	320,
-		smokecooldown		=	130,
-		smokeceg		=	"SMOKESHELL_Medium",
 		soundcategory = "US/Boat",
 		children = {
 			"US_SC_Turret_76mm",
