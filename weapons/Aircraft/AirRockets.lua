@@ -2,6 +2,7 @@
 
 -- AirRocket Base Class
 local AirRocketClass = Weapon:New{
+  accuracy		=300,
   cegTag             = [[BazookaTrail]],
   collideFriendly    = false,
   explosionGenerator = [[custom:HE_Medium]],
@@ -22,7 +23,7 @@ local AirRocketClass = Weapon:New{
   weaponVelocity     = 850,
   wobble             = 500,
   customparams = {
-    no_range_adjust    = false,
+    no_range_adjust    = true,
 
   },
 }

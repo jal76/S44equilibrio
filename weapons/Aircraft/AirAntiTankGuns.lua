@@ -3,7 +3,7 @@
 -- AirAntiTankGun Base Class
 -- Currently assumes that we would not want to give such weapons HE
 local AirATGunClass = Weapon:New{
-  accuracy           = 100,
+  accuracy           = 300,
   avoidFriendly      = false,
   canattackground    = false,
   leadlimit	     = 400,
@@ -30,7 +30,7 @@ local AirATGunClass = Weapon:New{
   dynDamageInverted  = true,
   weaponType         = [[Cannon]],
   customparams = {
-    no_range_adjust    = false,
+    no_range_adjust    = true,
     damagetype         = [[kinetic]],
   },
 }
@@ -61,7 +61,7 @@ local BK37mmAP = AirATGunClass:New{
 local Ho40157mm = AirATGunClass:New{
   areaOfEffect       = 12,
   name               = [[Ho-401 57 mm HEAT]],
-  range              = 760,
+  range              = 660,
   reloadTime         = 0.95,
   soundStart         = [[RUS_45mm]],
   weaponVelocity     = 918,
