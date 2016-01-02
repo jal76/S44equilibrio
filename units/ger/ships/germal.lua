@@ -49,7 +49,7 @@ local GER_MAL_Turret_105mm = PartiallyEnclosedBoatTurret:New{ --
 		},
 	},
 	customparams = {
-		maxammo					= 18,
+		maxammo					= 12,
 		weaponcost				= 20,
 		weaponswithammo			= 1,
 
