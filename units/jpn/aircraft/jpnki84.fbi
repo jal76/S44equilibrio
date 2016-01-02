@@ -5,9 +5,9 @@
   airSightDistance=4000;
   brakeRate=5;
   buildCostEnergy=0;
-  buildCostMetal=3125;
+  buildCostMetal=1125;
   buildPic=JPNKi84.png;
-  buildTime=3125;
+  buildTime=1125;
   canAttack=1;
   canDropFlare=1;
   moveState=1;

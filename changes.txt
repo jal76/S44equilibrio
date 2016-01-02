@@ -56,6 +56,10 @@
 - added attack for scoutcars to make scouting easier, improved binoc2
 - Ro gets 50% more expensive
 - tanktransportboats get smokescreen,increased bullet velocity of cannone da 47
+- removed smokescreen on some boats ,now only tanktransport has it
+- ABTEI got nerfed, less mass, only turrets are armored.
+- air antitank cannons get less accuracy but no range adjust back same to air rockets
+- germal gets ammo reduced
 
 Unitdef changes:
 --------------------

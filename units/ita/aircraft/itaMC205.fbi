@@ -5,9 +5,9 @@
   airSightDistance=4000;
   brakeRate=5;
   buildCostEnergy=0;
-  buildCostMetal=3375;
+  buildCostMetal=1375;
   buildPic=ITAMC205.png;
-  buildTime=3375;
+  buildTime=1375;
   canAttack=1;
   canDropFlare=1;
   canFly=1;
