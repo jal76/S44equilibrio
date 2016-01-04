@@ -73,9 +73,10 @@ local damagedefs = {
   },
   shapedcharge = {
     bunkers = 2,
-    lighttanks = 4/3,
-    mediumtanks = 5/4,
-    heavytanks = 6/5,
+    armouredvehicles = 9/8,
+    lighttanks = 8/7,
+    mediumtanks = 8/7,
+    heavytanks = 8/7,
 	armoredboat = 5/2,
 	ships = 3/2,
 	shipturrets = 1,
