@@ -2,6 +2,7 @@
 
 -- Rocket Artillery Base Class
 local ArtyRocketClass = Weapon:New{
+  accuracy		= 300,
   avoidFeature		 = false,
   cegTag             = [[RocketTrail]],
   commandfire        = true,
@@ -60,6 +61,7 @@ local M13132mm = ArtyRocketClass:New{
   name               = [[M-13 132mm unguided artillery rocket]],
   range              = 4555,
   soundStart         = [[RUS_Katyusha]],
+  tolerance          = 4000,
   wobble             = 1500,
   damage = {
     default            = 5525,

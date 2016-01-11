@@ -322,10 +322,10 @@ local BeresinUBS = HeavyMGClass:New{
   burst             = 6,
   burstRate         = 0.088,
   sprayAngle        = 1050,
+  soundStart         = [[RUS_BeresinUBS]],
   customparams = {
     no_range_adjust    = true,
   }
-  soundStart         = [[RUS_BeresinUBS]],
 }
 
 -- M2 Browning  (USA)
