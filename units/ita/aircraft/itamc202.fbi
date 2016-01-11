@@ -20,7 +20,7 @@
   category=AIR;
   cruiseAlt=1500;
   [customParams] {
-    enginesound=fw190b-;
+    enginesound=me109b-;
     enginesoundnr=12;
     feartarget=1;
     proptexture=prop3.tga;

@@ -22,9 +22,6 @@
     enginesoundnr=12;
     feartarget=1;
     proptexture=prop3.tga;
-    maxammo=2;
-    weaponcost=0;
-    weaponswithammo=2;
     soundcategory=ITA/Air;
   }
   explodeAs=Vehicle_Explosion_Med;
@@ -93,11 +90,13 @@
   maxAngleDif5=15;
   onlyTargetCategory5=Building SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir5=0 0 1;
+  weaponSlaveTo5=6;
 
   weapon6=Bomb160kg;
   maxAngleDif6=15;
   onlyTargetCategory6=Building SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir6=0 0 1;
+  weaponSlaveTo6=5;
 
   weapon7=Medium_Tracer;
 

@@ -8,8 +8,8 @@ local BombClass = Weapon:New{
   heightBoostFactor  = 0,
   impulseFactor      = 0.01,
   leadlimit	     = 400,
-  noSelfDamage		 = true,
-  targetBorder	= 1,
+  noSelfDamage	     = true,
+  targetBorder		= 1,
   reloadtime         = 600,
   tolerance          = 5000,
   trajectoryHeight   = 0,
@@ -21,39 +21,45 @@ local BombClass = Weapon:New{
     no_range_adjust	   = true,
     damagetype         = [[explosive]],
   },
-  damage = {
-    default            = 30000,
-	planes             = 5,
-  },
+}
+-- Delayedbomb
+local BasebombClass = BombClass:New{
+  accuracy           = 500,
+  commandfire        = true,
+  groundBounce	     = true,
+  selfExplode	     = true,
+  noEnemyCollide     = true,
+  model              = [[Bomb_Medium.S3O]],
+  soundHitDry        = [[GEN_Explo_9]],
+  bounceRebound	     = 0.1,
+  bounceSlip	     = 0.1,
+  numBounce	     = 20,
 }
 
 -- Implementations
 
 -- 250Kg Bomb (Generic)
-local Bomb = BombClass:New{
-  accuracy           = 500,
+local Bomb = BasebombClass:New{
   areaOfEffect       = 200,
   commandfire        = true,
   edgeEffectiveness  = 0.1,
-  model              = [[Bomb_Medium.S3O]],
   name               = [[250kg Bomb]],
   range              = 500,
-  soundHitDry        = [[GEN_Explo_9]],
+  damage = {
+    default            = 30000,
+  },
 }
 
 -- 160Kg Bomb (Generic)
-local Bomb160kg = BombClass:New{
-  accuracy           = 500,
+local Bomb160kg = BasebombClass:New{
   areaOfEffect       = 160,
   name               = [[160kg Bomb]],
   model              = [[Bomb_Medium.S3O]],
-  reloadtime	= 600,
   range              = 450,
+  commandfire        = false,
     damage = {
     default            = 15000,
-	planes		= 5,
     },
-  soundHit           = [[GEN_Explo_9]],
 }
 
 -- 50Kg Bomb (Generic)
@@ -135,19 +141,19 @@ local A_tkbomb = BombClass:New{
   }
 }
 --  12 kg anti-personnel Bomb Type F  (ITA)
-local TypeF12kg = BombClass:New{
+local TypeF12kg = BasebombClass:New{
   areaOfEffect       = 86,
-  explosionSpeed     = 180,
+  explosionSpeed     = 8,
   impulseFactor      = 0.0,
   burst              = 2,
   burstrate          = 0.25,
   edgeEffectiveness  = 0.05,
   explosionGenerator = [[custom:HE_small]], -- overrides default
-  model              = [[MortarShell.S3O]],
   weaponVelocity     = 250,
   name               = [[12kg Fragmentation Bomblets]],
   projectiles        = 2,
   range              = 500,
+  model              = [[Bomb_small.S3O]],
   soundHitDry        = [[GEN_Explo_3]],
   sprayangle         = 2000,
   customparams = {
