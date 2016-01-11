@@ -16,7 +16,7 @@
     hasturnbutton=1;
     lowammolevel=1;
     maxammo=1;
-    weaponcost=940;
+    weaponcost=752;
     weaponswithammo=1;
     soundcategory=RUS/Vehicle;
   }
