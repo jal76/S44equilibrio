@@ -62,7 +62,7 @@
   badTargetCategory=FLAG;
 
   weapon1=Cannone65L17HE;
-  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
+  badTargetCategory1=INFANTRY;
   maxAngleDif1=30;
   onlyTargetCategory1=BUILDING INFANTRY SOFTVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir1=0 0 1;

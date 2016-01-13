@@ -1,41 +1,41 @@
 [unitinfo] {
-  unitname=ITAAutocannone75;
-  name=Autocannone da 75/27;
-  description=Gun Truck;
-  acceleration=0.03;
+  unitname=ITAAutocannone90;
+  name=Autocannone da 90/56;
+  description=Self-Propelled AT-Gun;
+  acceleration=0.02;
   airSightDistance=1500;
   brakeRate=0.96;
   buildCostEnergy=0;
-  buildCostMetal=1650;
-  buildTime=1650;
+  buildCostMetal=2950;
+  buildTime=2950;
   canMove=1;
   category=MINETRIGGER SOFTVEH;
   collisionVolumeType=box;
-  collisionVolumeScales=16 14 28;
+  collisionVolumeScales=16 18 44;
   collisionVolumeOffsets=0 -1 0;
   collisionVolumeTest=1;
-  corpse=ITAAutocannone75_Abandoned;
+  corpse=ITAAutocannone90_Abandoned;
   [customParams] {
     lowammolevel=2;
     maxammo=5;
-    weaponcost=12;
-    weaponswithammo=1;
+    weaponcost=20;
     soundcategory=ITA/Vehicle;
   }
   explodeAs=Vehicle_Explosion_Med;
   footprintX=3;
   footprintZ=3;
-  iconType=sparty;
+  iconType=selfprop;
   leaveTracks=1;
-  mass=270;
-  maxDamage=270;
+  mass=800;
+  maxDamage=800;
   maxReverseVelocity=1.5;
   maxSlope=2;
-  maxVelocity=2.8;
+  maxVelocity=2.1;
   maxWaterDepth=5;
   movementClass=TANK_Truck;
   noChaseCategory=FLAG AIR MINE;
-  objectName=ITAAutocannone75.s3o;
+  objectName=ITAAutocannone90.s3o;
+  script=itaautocannone90.cob;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Med;
   [sfxtypes] {
@@ -64,10 +64,9 @@
   turnRate=175;
   badTargetCategory=FLAG;
 
-  weapon1=ansaldo75mml27he;
-  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
-  maxAngleDif1=30;
-  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
-  weaponMainDir1=0 0 1;
+  weapon1=Ansaldo90mmL53AP;
+  maxAngleDif1=175;
+  onlyTargetCategory1=SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP;
+  weaponMainDir1=0 1 1;
 }
 
