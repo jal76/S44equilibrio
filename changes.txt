@@ -62,6 +62,12 @@
 - germal gets ammo reduced
 - fixed costs of ita/jpn planes wich may caused to much command in return
 - changed shapedcharge damage vs armour
+- fix no-range-adjust tag in BerenzinUBS
+- made delayed bombs for fighterbombers
+- katyusha is 20% cheaper now and got higher weapon tolerance, some accuracy nerf for arty
+- katyusha uses 20% less logistics now, rocket artillery weapons dont have auto hit top anymore
+- removed turnbutton from wheeled vehicles, 4+ wheeled vehicles get small turn bonus, jpnhoro and isu152 dont chase infantry
+- jpnMG platoon is 10% cheaper now
 
 
 Unitdef changes:
