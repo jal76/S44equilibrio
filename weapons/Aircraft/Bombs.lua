@@ -27,8 +27,8 @@ local BasebombClass = BombClass:New{
   accuracy           = 500,
   commandfire        = true,
   groundBounce	     = true,
-  selfExplode	     = true,
-  noEnemyCollide     = true,
+  burnblow	     = false,
+  collideEnemy     = false,
   model              = [[Bomb_Medium.S3O]],
   soundHitDry        = [[GEN_Explo_9]],
   bounceRebound	     = 0.1,
@@ -83,9 +83,12 @@ local Bomb50kg = BombClass:New{
 
 -- V1 Missile Explosions (GER)
 local V1 = BombClass:New{
-  areaOfEffect       = 200,
+  areaOfEffect       = 202,
   name               = [[V1 Missile]],
   soundHitDry        = [[GEN_Explo_9]],
+  damage = {
+    default            = 28000,
+  },
 }
 
 -- PTAB "Antitank Aviation Bomb" (RUS)
