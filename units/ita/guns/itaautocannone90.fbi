@@ -19,6 +19,7 @@
     lowammolevel=2;
     maxammo=5;
     weaponcost=20;
+    weaponswithammo=1;
     soundcategory=ITA/Vehicle;
   }
   explodeAs=Vehicle_Explosion_Med;
