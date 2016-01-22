@@ -1,25 +1,23 @@
 [unitinfo] {
-  unitname=JPNType90_75mm_Stationary;
-  name=Dug-In Type 90 75mm Gun;
-  description=Stationary Field Gun;
+  unitname=GERPaK40_Stationary;
+  name=Dug-In PaK 40;
+  description=Stationary Anti-Tank Gun;
   activateWhenBuilt=1;
   airSightDistance=2500;
   buildCostEnergy=0;
-  buildCostMetal=700;
+  buildCostMetal=840;
   buildingGroundDecalSizeX=5;
   buildingGroundDecalSizeY=5;
   buildingGroundDecalType=Dirt2.dds;
-  buildPic=JPNType90_75mm_Stationary.png;
-  buildTime=900;
+  buildTime=840;
   category=DEPLOYED;
-  corpse=JPNType90_75mm_Destroyed;
+  corpse=GERPaK40_Destroyed;
   [customParams] {
     feartarget=1;
     lowammolevel=1;
     maxammo=4;
     weaponcost=16;
-    weaponswithammo=2;
-    soundcategory=JPN/Gun;
+    weaponswithammo=1;
   }
   flankingBonusDir=0.0 0.0 1.0;
   flankingBonusMax=1.25;
@@ -27,12 +25,12 @@
   flankingBonusMode=1;
   footprintX=3;
   footprintZ=3;
-  iconType=artillery;
+  iconType=atartillery;
   maxDamage=750;
   maxSlope=15;
   maxWaterDepth=0;
   noChaseCategory=FLAG AIR MINE;
-  objectName=JPNType90_75mm_Stationary.s3o;
+  objectName=GERPaK40_Stationary.S3O;
   [sfxtypes] {
     explosionGenerator0=custom:SMOKEPUFF_GPL_FX;
     explosionGenerator1=custom:PLACEHOLDER_EFFECT01;
@@ -45,24 +43,20 @@
     explosionGenerator8=custom:MEDIUM_MUZZLEDUST;
     explosionGenerator9=custom:MuzzleBrakeSmoke;
   }
-  script=ruszis3_stationary.cob;
   showNanoFrame=0;
-  side=JPN;
+  side=GBR;
   sightDistance=701;
   smoothAnim=0;
+  soundcategory=GERInf;
   stealth=1;
   useBuildingGroundDecal=1;
   badTargetCategory=FLAG;
+  
 
-  weapon1=Type9075mmHE;
-  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
+  weapon1=KwK75mmL48AP;
+  badTargetCategory1=SOFTVEH;
   maxAngleDif1=70;
-  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+  onlyTargetCategory1=SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP;
   weaponMainDir1=0 0 1;
-
-  weapon2=Type9075mmAP;
-  onlyTargetCategory2=OPENVEH HARDVEH LARGESHIP SHIP SOFTVEH;
-  maxAngleDif2=70;
-  weaponMainDir2=0 0 1;
 }
 

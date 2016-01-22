@@ -27,7 +27,7 @@
   footprintX=3;
   footprintZ=3;
   iconType=artillery;
-  maxDamage=2500;
+  maxDamage=750;
   maxSlope=15;
   maxWaterDepth=0;
   noChaseCategory=FLAG AIR MINE;

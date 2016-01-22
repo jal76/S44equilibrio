@@ -34,7 +34,7 @@
   cloakCostMoving=0;
   cloakTimeout=64;
   minCloakDistance=200;
-  maxDamage=2500;
+  maxDamage=750;
   maxSlope=15;
   maxWaterDepth=0;
   noChaseCategory=FLAG AIR MINE;

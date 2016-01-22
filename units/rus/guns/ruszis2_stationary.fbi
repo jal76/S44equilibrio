@@ -1,25 +1,28 @@
 [unitinfo] {
-  unitname=JPNType90_75mm_Stationary;
-  name=Dug-In Type 90 75mm Gun;
-  description=Stationary Field Gun;
+  unitname=RUSZiS2_Stationary;
+  name=Dug-In ZiS-2;
+  description=Stationary Anti-Tank Gun;
   activateWhenBuilt=1;
   airSightDistance=2500;
   buildCostEnergy=0;
-  buildCostMetal=700;
+  buildCostMetal=450;
   buildingGroundDecalSizeX=5;
   buildingGroundDecalSizeY=5;
   buildingGroundDecalType=Dirt2.dds;
-  buildPic=JPNType90_75mm_Stationary.png;
-  buildTime=900;
+  buildTime=450;
   category=DEPLOYED;
-  corpse=JPNType90_75mm_Destroyed;
+  cloakCost=0;
+  cloakCostMoving=0;
+  corpse=RUSZiS2_Destroyed;
   [customParams] {
+    dontCount=1;
+    hiddenbuilding=1;
     feartarget=1;
     lowammolevel=1;
     maxammo=4;
-    weaponcost=16;
-    weaponswithammo=2;
-    soundcategory=JPN/Gun;
+    weaponcost=10;
+    weaponswithammo=1;
+    soundcategory=RUS/Gun;
   }
   flankingBonusDir=0.0 0.0 1.0;
   flankingBonusMax=1.25;
@@ -27,12 +30,15 @@
   flankingBonusMode=1;
   footprintX=3;
   footprintZ=3;
-  iconType=artillery;
+  iconType=atartillery;
+  init_cloaked=1;
   maxDamage=750;
   maxSlope=15;
   maxWaterDepth=0;
+  minCloakDistance=500;
+  cloakTimeout=160;
   noChaseCategory=FLAG AIR MINE;
-  objectName=JPNType90_75mm_Stationary.s3o;
+  objectName=RUSZiS2_Stationary.S3O;
   [sfxtypes] {
     explosionGenerator0=custom:SMOKEPUFF_GPL_FX;
     explosionGenerator1=custom:PLACEHOLDER_EFFECT01;
@@ -41,28 +47,22 @@
     explosionGenerator4=custom:PLACEHOLDER_EFFECT04;
     explosionGenerator5=custom:PLACEHOLDER_EFFECT05;
     explosionGenerator6=custom:PLACEHOLDER_EFFECT06;
-    explosionGenerator7=custom:MEDIUM_MUZZLEFLASH;
-    explosionGenerator8=custom:MEDIUM_MUZZLEDUST;
-    explosionGenerator9=custom:MuzzleBrakeSmoke;
+    explosionGenerator7=custom:MEDIUMSMALL_MUZZLEFLASH;
+    explosionGenerator8=custom:MEDIUMSMALL_MUZZLEDUST;
   }
-  script=ruszis3_stationary.cob;
   showNanoFrame=0;
-  side=JPN;
+  side=RUS;
   sightDistance=701;
   smoothAnim=0;
   stealth=1;
   useBuildingGroundDecal=1;
   badTargetCategory=FLAG;
+  
 
-  weapon1=Type9075mmHE;
-  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
+  weapon1=zis257mmap;
+  badTargetCategory1=SOFTVEH;
   maxAngleDif1=70;
-  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+  onlyTargetCategory1=SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP;
   weaponMainDir1=0 0 1;
-
-  weapon2=Type9075mmAP;
-  onlyTargetCategory2=OPENVEH HARDVEH LARGESHIP SHIP SOFTVEH;
-  maxAngleDif2=70;
-  weaponMainDir2=0 0 1;
 }
 
