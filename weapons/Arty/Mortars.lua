@@ -44,7 +44,7 @@ local MortarSmokeClass = Weapon:New{
 	smokeceg           = [[SMOKESHELL_Small]],
   },
   damage = {
-    default = 100,
+    default = 10,
   } ,
 }
 

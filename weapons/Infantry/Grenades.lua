@@ -2,13 +2,11 @@
 
 -- Grenade Base Class
 local GrenadeClass = Weapon:New{
-  bounceRebound      = 0.2,
-  bounceSlip         = 0.1,
   canAttackGround    = false,
   explosionSpeed     = 30,
   groundBounce       = true,
   id                 = 31, -- used?
-  impulseFactor      = 1e-05,
+  impulseFactor      = 0,
   model              = [[MortarShell.S3O]],
   targetBorder       = 1,
   tolerance          = 10000,
@@ -20,10 +18,13 @@ local GrenadeClass = Weapon:New{
 
 -- Anti-Personel Grenade Class
 local APGrenadeClass = GrenadeClass:New{
-  collisionSize      = 1e-100,
   edgeEffectiveness  = 0.8,
   explosionGenerator = [[custom:HE_Small]],
-  movingAccuracy     = 1000,
+  movingAccuracy     = 500,
+  bounceRebound      = 0.15,
+  bounceSlip         = 0.1,
+  numBounce	     = 10,
+  collideEnemy     = false,
   range              = 180,
   reloadtime         = 8,
   soundHitDry        = [[GEN_Explo_Grenade]],
@@ -40,7 +41,7 @@ local APGrenadeClass = GrenadeClass:New{
 local ATGrenadeClass = GrenadeClass:New{
   edgeEffectiveness  = 0.5,
   explosionGenerator = [[custom:HE_Medium]],
-  movingAccuracy     = 1000,
+  movingAccuracy     = 500,
   range              = 230,
   reloadTime         = 5,
   predictBoost       = 0.5,
@@ -64,7 +65,7 @@ local SmokeGrenadeClass = GrenadeClass:New{
 	smokeceg           = [[SMOKESHELL_Small]],
   },
   damage = {
-    default = 100,
+    default = 10,
   } ,
 }
 
@@ -72,15 +73,15 @@ local SmokeGrenadeClass = GrenadeClass:New{
 -- AP Nades
 -- No. 69 Mills Bomb (GBR)
 local No69 = APGrenadeClass:New{
-  accuracy           = 1421,
-  areaOfEffect       = 32,
+  accuracy           = 142,
+  areaOfEffect       = 16,
   name               = [[No. 69 Hand Grenade]],
 }
 
 -- Model 24 (GER)
 local Model24 = APGrenadeClass:New{
-  accuracy           = 1250,
-  areaOfEffect       = 24,
+  accuracy           = 125,
+  areaOfEffect       = 12,
   edgeEffectiveness  = 0.5, -- intended?
   name               = [[Model 24 Stielhandgranate]],
   range              = 200,
@@ -93,8 +94,8 @@ local Model24 = APGrenadeClass:New{
 
 -- Mk. 2 (USA)
 local Mk2 = APGrenadeClass:New{
-  accuracy           = 1777,
-  areaOfEffect       = 40,
+  accuracy           = 177,
+  areaOfEffect       = 20,
   name               = [[Mk. 2 Hand Grenade]],
   weaponVelocity     = 310, -- intended?
 }
@@ -102,14 +103,15 @@ local Mk2 = APGrenadeClass:New{
 -- F1 (RUS)
 -- this is new, currently unused, stas copied from No.69
 local F1 = APGrenadeClass:New{
-  accuracy           = 1421,
-  areaOfEffect       = 32,
+  accuracy           = 142,
+  areaOfEffect       = 16,
   name               = [[F-1 Hand Grenade]],
 }
 
 -- OTO Model 35 (ITA)
 local OTO_model35 = APGrenadeClass:New{
-  areaOfEffect       = 30,
+  accuracy           = 102,
+  areaOfEffect       = 15,
   name               = [[italian Grenade]],
   range              = 200,
   customparams = {
@@ -122,8 +124,8 @@ local OTO_model35 = APGrenadeClass:New{
 
 -- Type 99 AP Grenade (JPN)
 local Type99Grenade = APGrenadeClass:New{
-  accuracy           = 1421,
-  areaOfEffect       = 32,
+  accuracy           = 122,
+  areaOfEffect       = 15,
   name               = [[Type 99 Grenade]],
 }
 
@@ -132,8 +134,8 @@ local Type99Grenade = APGrenadeClass:New{
 -- AT nades
 -- RPG-43 AT Nade (RUS)
 local RPG43 = ATGrenadeClass:New{
-  accuracy           = 200,
-  areaOfEffect       = 24,
+  accuracy           = 100,
+  areaOfEffect       = 12,
   name               = [[RPG-43 Anti-Tank Grenade]],
   customparams = {
     armor_penetration  = 75,
@@ -173,8 +175,8 @@ local L_type_grenade = ATGrenadeClass:New{
 
 -- Type 3 AT Grenade (JPN)
 local Type3AT = ATGrenadeClass:New{
-  accuracy           = 200,
-  areaOfEffect       = 24,
+  accuracy           = 100,
+  areaOfEffect       = 12,
   name               = [[Type 3 Anti-Tank Grenade]],
   customparams = {
     armor_penetration  = 70,
