@@ -20,6 +20,11 @@
     armor_rear=43;
     armor_side=43;
     armor_top=21;
+	smokegenerator  =	1;
+	smokeradius	=	80;
+	smokeduration	=	320;
+	smokecooldown	=	130;
+	smokeceg	=	"SMOKESHELL_Medium";
     hasturnbutton=1;
     lowammolevel=4;
     maxammo=14;
