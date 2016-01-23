@@ -68,7 +68,10 @@
 - katyusha uses 20% less logistics now, rocket artillery weapons dont have auto hit top anymore
 - removed turnbutton from wheeled vehicles, 4+ wheeled vehicles get small turn bonus, jpnhoro and isu152 dont chase infantry
 - jpnMG platoon is 10% cheaper now
-
+- smoked untis gets mincloadistance of 170
+- deployed guns have 30% HP now
+- delayed fraggrenades, antitankgrenades are more accurate, grenades have less HE, small smoke shells do less damage
+- added a smokescreen ability to adv. tanks
 
 Unitdef changes:
 --------------------
