@@ -93,12 +93,12 @@ local GBR_LCSL_Turret_6pdr = EnclosedBoatTurret:New{
 		[1] = {
 			name				= "qf6pdr57mmhe",
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH  DEPLOYED",
 		},
 		[2] = {
 			name				= "qf6pdr57mmap",
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "OPENVEH HARDVEH",
+			onlyTargetCategory	= "OPENVEH HARDVEH SHIP LARGESHIP",
 		},
 	},
 	customparams = {

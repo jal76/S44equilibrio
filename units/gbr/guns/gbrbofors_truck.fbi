@@ -1,23 +1,22 @@
 [unitinfo] {
-  unitname=JPNType98_20mm_Truck;
-  name=Towed Type 98 20mm Gun;
+  unitname=GBRBofors_Truck;
+  name=Towed Q.F. 40mm Bofors;
   description=Anti-Aircraft Gun;
   acceleration=0.3;
-  airSightDistance=1250;
   brakeRate=0.96;
   buildCostEnergy=0;
-  buildCostMetal=1040;
-  buildPic=JPNType98_20mm.png;
-  buildTime=1040;
+  buildCostMetal=1120;
+  buildPic=GBRBofors.png;
+  buildTime=1120;
   canMove=1;
   category=MINETRIGGER SOFTVEH;
-  corpse=JPNIsuzuTX40_Abandoned;
+  corpse=GBRBedfordTruck_Destroyed;
   [customParams] {
     lowammolevel=1;
     maxammo=16;
-    weaponcost=2;
+    weaponcost=3;
     weaponswithammo=0;
-    soundcategory=JPN/Vehicle;
+    soundcategory=GBR/Vehicle;
   }
   explodeAs=Vehicle_Explosion_Sm;
   footprintX=3;
@@ -32,8 +31,7 @@
   maxWaterDepth=5;
   movementClass=TANK_Truck;
   noChaseCategory=AIR MINE;
-  objectName=JPNType98_20mm_Truck.s3o;
-  script=gerflak38_truck.cob;
+  objectName=GBRBofors_Truck.S3O;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
   [sfxtypes] {
@@ -49,6 +47,7 @@
   trackWidth=13;
   turninplace=0;
   turnRate=440;
-
+  onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
+  onlyTargetCategory2=BUILDING INFANTRY SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
 }
 

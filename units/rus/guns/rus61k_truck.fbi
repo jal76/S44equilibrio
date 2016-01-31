@@ -1,23 +1,22 @@
 [unitinfo] {
-  unitname=JPNType98_20mm_Truck;
-  name=Towed Type 98 20mm Gun;
+  unitname=RUS61K_Truck;
+  name=Towed 37mm 61-K;
   description=Anti-Aircraft Gun;
   acceleration=0.3;
-  airSightDistance=1250;
   brakeRate=0.96;
   buildCostEnergy=0;
-  buildCostMetal=1040;
-  buildPic=JPNType98_20mm.png;
-  buildTime=1040;
+  buildCostMetal=1120;
+  buildPic=RUS61K.png;
+  buildTime=1120;
   canMove=1;
   category=MINETRIGGER SOFTVEH;
-  corpse=JPNIsuzuTX40_Abandoned;
+  corpse=RUSZiS5_Destroyed;
   [customParams] {
     lowammolevel=1;
     maxammo=16;
-    weaponcost=2;
+    weaponcost=3;
     weaponswithammo=0;
-    soundcategory=JPN/Vehicle;
+    soundcategory=RUS/Vehicle;
   }
   explodeAs=Vehicle_Explosion_Sm;
   footprintX=3;
@@ -32,8 +31,7 @@
   maxWaterDepth=5;
   movementClass=TANK_Truck;
   noChaseCategory=AIR MINE;
-  objectName=JPNType98_20mm_Truck.s3o;
-  script=gerflak38_truck.cob;
+  objectName=RUS61K_Truck.S3O;
   seismicSignature=0;
   selfDestructAs=Vehicle_Explosion_Sm;
   [sfxtypes] {
@@ -42,13 +40,12 @@
   sightDistance=800;
   smoothAnim=0;
   stealth=1;
-  trackOffset=10;
+  trackOffset=5;
   trackStrength=6.5;
   trackStretch=1;
   trackType=Stdtank;
-  trackWidth=13;
+  trackWidth=12;
   turninplace=0;
   turnRate=440;
-
 }
 

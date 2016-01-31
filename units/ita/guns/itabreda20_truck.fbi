@@ -6,9 +6,9 @@
   airSightDistance=1250;
   brakeRate=0.96;
   buildCostEnergy=0;
-  buildCostMetal=1250;
+  buildCostMetal=1000;
   buildPic=ITABreda20_truck.png;
-  buildTime=1250;
+  buildTime=1000;
   canMove=1;
   category=MINETRIGGER SOFTVEH;
   corpse=ITAFiat626_Abandoned;
