@@ -72,6 +72,9 @@
 - deployed guns have 30% HP now
 - delayed fraggrenades, antitankgrenades are more accurate, grenades have less HE, small smoke shells do less damage
 - added a smokescreen ability to adv. tanks
+- added new M36 model, nerf V1 hp and altitude, less hp to glider
+-  added smoke to all infantry landing boats, gbrlcsl use AP vs boats,AA guns are 20% cheaper now
+
 
 Unitdef changes:
 --------------------
