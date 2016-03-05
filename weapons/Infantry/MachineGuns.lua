@@ -108,7 +108,7 @@ local MG42_Deployed = MG42:New{
 }
 -- Anti Air MG42
 local MG42AA = MG42:New{
-  accuracy	     = 200,
+  accuracy	     = 300,
   canAttackGround    = false,
   predictBoost       = 0.25,
   movingAccuracy     = 800,
@@ -150,7 +150,7 @@ local Maxim = MGClass:New{
 }
 -- Maxim AA
 local MaximAA = Maxim:New{
-  accuracy	     = 200,
+  accuracy	     = 300,
   burst              = 10,
   canAttackGround    = false,
   movingAccuracy     = 800,
@@ -279,7 +279,7 @@ local Type92MG = MGClass:New{
 
 -- 7.7mm TE-4 Air MG (JPN)
 local TE4 = MGClass:New{
-  accuracy	     = 400,
+  accuracy	     = 300,
   burst		     = 6,
   burstRate          = 0.15,
   canAttackGround    = false,
@@ -338,7 +338,7 @@ local M2Browning = HeavyMGClass:New{
 }
 -- M2 Browning AA
 local M2BrowningAA = M2Browning:New{
-  accuracy	     = 200,
+  accuracy	     = 300,
   burst              = 6,
   canAttackGround    = false,
   movingAccuracy     = 1200,
@@ -378,7 +378,7 @@ local BredaM1931 = HeavyMGClass:New{
 
 --Breda M1931 AA
 local BredaM1931AA = BredaM1931:New{
-  accuracy	     = 200,
+  accuracy	     = 300,
   burst              = 6,
   burstRate          = 0.109,
   canAttackGround    = false,
@@ -422,7 +422,7 @@ local Type93HMG = HeavyMGClass:New{
 
 -- Type 93 AA
 local Type93AA = Type93HMG:New{
-  accuracy	     = 200,
+  accuracy	     = 300,
   burst              = 6,
   burstRate          = 0.109,
   movingAccuracy     = 800,
