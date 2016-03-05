@@ -111,6 +111,7 @@
   weaponSlaveTo6=3;
 
   weapon7=bomb;
+  maxAngleDif7=20;
   onlyTargetCategory7=BUILDING HARDVEH SHIP OPENVEH LARGESHIP DEPLOYED;
   weaponMainDir7=0 0 1;
 
