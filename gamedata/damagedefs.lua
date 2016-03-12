@@ -72,7 +72,7 @@ local damagedefs = {
     mines = 0,
   },
   shapedcharge = {
-    bunkers = 2,
+    bunkers = 1/6,
     armouredvehicles = 9/8,
     lighttanks = 8/7,
     mediumtanks = 8/7,
