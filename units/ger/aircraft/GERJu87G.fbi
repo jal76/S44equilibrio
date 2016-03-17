@@ -81,12 +81,12 @@
   weaponSlaveTo2=1;
 
   weapon3=mg42aa;
-  maxAngleDif3=90;
+  maxAngleDif3=76;
   onlyTargetCategory3=AIR;
   weaponMainDir3=0 .5 -1;
 
   weapon4=mg42aa;
-  maxAngleDif4=90;
+  maxAngleDif4=76;
   onlyTargetCategory4=AIR;
   weaponMainDir4=0 .5 -1;
   weaponSlaveTo4=3;

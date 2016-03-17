@@ -136,6 +136,7 @@ local gerunits =
     "gerpak40_truck",
     "gerlefh18_truck",
     "gerflak38_truck",
+	"gersdkfz10",
     "germarder",
     "gerjagdpanzeriv",
     "gerjagdpanther",
