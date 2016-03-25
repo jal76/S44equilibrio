@@ -74,6 +74,12 @@
 - added a smokescreen ability to adv. tanks
 - added new M36 model, nerf V1 hp and altitude, less hp to glider
 -  added smoke to all infantry landing boats, gbrlcsl use AP vs boats,AA guns are 20% cheaper now
+- HE does more 25% more damage to unarmoured vehicles, intro music
+- fixed IL2 weaponaimdiff, 150% AA accuracy, incresed movingaccuracy of grenades
+- increased AoE of AP grenades again by 25% (it was 50% reduced before) and reduced edgeeffectivnes
+- added +1 starting AA to german start cause its 20mm
+- reduced shapedchargedamage vs bunkes, add mobile AA vehicle to JPNSPyard and JPNTDyard and german TDyard
+
 
 
 Unitdef changes:

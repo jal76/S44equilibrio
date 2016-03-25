@@ -16,7 +16,7 @@
   canPatrol=0;
   CanStop=0;
   category=AIR;
-  useSmoothMesh=0;
+  useSmoothMesh=1;
   corpse=GBRHorsa_Damaged;
   cruiseAlt=1200;
   [customParams] {
