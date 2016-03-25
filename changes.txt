@@ -79,6 +79,8 @@
 - increased AoE of AP grenades again by 25% (it was 50% reduced before) and reduced edgeeffectivnes
 - added +1 starting AA to german start cause its 20mm
 - reduced shapedchargedamage vs bunkes, add mobile AA vehicle to JPNSPyard and JPNTDyard and german TDyard
+- reduced nebelwerfer HP, V1 and Glider drop arc changes, planesound
+- higher molotov and flamethrower damage
 
 
 

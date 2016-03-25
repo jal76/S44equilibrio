@@ -216,7 +216,7 @@ local Molotov = GrenadeClass:New{
 	ceg                = [[Molotov]],
   },
   damage = {
-    default            = 15,
+    default            = 30,
 	lightbuildings     = 400,
   },  
 }
