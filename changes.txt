@@ -81,7 +81,7 @@
 - reduced shapedchargedamage vs bunkes, add mobile AA vehicle to JPNSPyard and JPNTDyard and german TDyard
 - reduced nebelwerfer HP, V1 and Glider drop arc changes, planesound
 - higher molotov and flamethrower damage
-
+- nerf armored boats, buff 12kg bombs and antitankbomblets, nerf P40 armour, reduce kinetic damage vs armoured boats a bit, buffed ita 90mm and 75/46 according wiki and other sources
 
 
 Unitdef changes:
