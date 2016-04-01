@@ -227,8 +227,8 @@ local Ansaldo90mmL53HE = Ansaldo90mmL53:New(MediumHeavyGunHEClass, true):New{
 local Ansaldo90mmL53AP = Ansaldo90mmL53:New(MediumHeavyGunAPClass, true):New{
   weaponVelocity     = 1490,
   customparams = {
-    armor_penetration_1000m = 90,
-    armor_penetration_100m  = 126,
+    armor_penetration_1000m = 108,
+    armor_penetration_100m  = 149,
   },
   damage = {
     default            = 3354,

@@ -104,7 +104,7 @@ local PTAB = BombClass:New{
   projectiles        = 8,
   range              = 500,
   soundHitDry        = [[GEN_Explo_3]],
-  sprayangle         = 8000,
+  sprayangle         = 7000,
   customparams = {
     armor_hit_side     = [[top]],
     armor_penetration  = 65,
@@ -130,7 +130,7 @@ local A_tkbomb = BombClass:New{
   projectiles        = 3,
   range              = 500,
   soundHitDry        = [[GEN_Explo_3]],
-  sprayangle         = 4000,
+  sprayangle         = 3000,
   customparams = {
     armor_hit_side     = [[top]],
     armor_penetration  = 70,
@@ -145,7 +145,7 @@ local A_tkbomb = BombClass:New{
 }
 --  12 kg anti-personnel Bomb Type F  (ITA)
 local TypeF12kg = BasebombClass:New{
-  areaOfEffect       = 86,
+  areaOfEffect       = 94,
   explosionSpeed     = 8,
   impulseFactor      = 0.0,
   burst              = 2,
@@ -158,12 +158,12 @@ local TypeF12kg = BasebombClass:New{
   range              = 500,
   model              = [[Bomb_small.S3O]],
   soundHitDry        = [[GEN_Explo_3]],
-  sprayangle         = 2000,
+  sprayangle         = 3000,
   customparams = {
     damagetype         = [[explosive]], -- overrides default
   },
   damage = {
-    default            = 470, 
+    default            = 600, 
   }
 }
 -- Return only the full weapons

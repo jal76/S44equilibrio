@@ -315,7 +315,7 @@ local Ansaldo75mmL18HEAT = Ansaldo75mmL18:New(MediumGunHEATClass, true):New{
     armor_penetration       = 90,
   },
   damage = {
-    default            = 2419,
+    default            = 1719,
   },
 }
 
@@ -387,8 +387,8 @@ local Ansaldo75mmL46HE = Ansaldo75mmL46:New(MediumGunHEClass, true):New{
 local Ansaldo75mmL46AP = Ansaldo75mmL46:New(MediumGunAPClass, true):New{
   weaponVelocity     = 1358,
   customparams = {
-    armor_penetration_1000m = 86,
-    armor_penetration_100m  = 98,
+    armor_penetration_1000m = 90,
+    armor_penetration_100m  = 118,
   },
   damage = {
     default            = 2613,
