@@ -60,7 +60,7 @@
   badTargetCategory=FLAG;
 
   weapon1=binocs2;
-  maxAngleDif1=90;
+  maxAngleDif1=20;
   onlyTargetCategory1=NONE;
 
 }
