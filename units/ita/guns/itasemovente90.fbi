@@ -6,8 +6,8 @@
   airSightDistance=1500;
   brakeRate=0.15;
   buildCostEnergy=0;
-  buildCostMetal=3350;
-  buildTime=3350;
+  buildCostMetal=4020;
+  buildTime=4020;
   canMove=1;
   // unprotected back, like Marder/Su-76
   category=MINETRIGGER OPENVEH;
