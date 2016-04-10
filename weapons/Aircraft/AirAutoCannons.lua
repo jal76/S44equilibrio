@@ -29,6 +29,9 @@ local AirACHEClass = Weapon:New{
   name               = [[HE Shell]],
   areaOfEffect       = 4,
   weaponType         = [[LaserCannon]],
+  rgbColor           = [[0.3 1.0 0.0]],
+  duration		= 0.015,
+
   customparams = {
     damagetype         = [[explosive]],
     cegflare           = "Cannon_MUZZLEFLASH",

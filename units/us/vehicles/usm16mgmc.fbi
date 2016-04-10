@@ -55,7 +55,7 @@
   trackType=Stdtank;
   trackWidth=15;
   turninplace=0;
-  turnRate=400;
+  turnRate=100;
   badTargetCategory=FLAG;
 
   weapon1=m2browningaa;

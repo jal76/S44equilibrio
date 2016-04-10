@@ -1,25 +1,24 @@
 [unitinfo] {
-  unitname=JPNType90_75mm_Stationary;
-  name=Dug-In Type 90 75mm Gun;
+  unitname=ITACannone75_Stationary;
+  name=Dug-In Cannone 75/32;
   description=Stationary Field Gun;
   activateWhenBuilt=1;
   airSightDistance=2500;
   buildCostEnergy=0;
-  buildCostMetal=1250;
+  buildCostMetal=1400;
   buildingGroundDecalSizeX=5;
   buildingGroundDecalSizeY=5;
   buildingGroundDecalType=Dirt2.dds;
-  buildPic=JPNType90_75mm_Stationary.png;
-  buildTime=1250;
+  buildTime=1400;
   category=DEPLOYED;
-  corpse=JPNType90_75mm_Destroyed;
+  corpse=ITACannone75_Destroyed;
   [customParams] {
     feartarget=1;
     lowammolevel=1;
     maxammo=4;
     weaponcost=16;
     weaponswithammo=2;
-    soundcategory=JPN/Gun;
+    soundcategory=ITA/Gun;
   }
   flankingBonusDir=0.0 0.0 1.0;
   flankingBonusMax=1.25;
@@ -28,11 +27,12 @@
   footprintX=3;
   footprintZ=3;
   iconType=artillery;
-  maxDamage=750;
+  maxDamage=2500;
   maxSlope=15;
   maxWaterDepth=0;
   noChaseCategory=FLAG AIR MINE;
-  objectName=JPNType90_75mm_Stationary.s3o;
+  objectName=ITACannone75_Stationary.s3o;
+  script=ruszis3_stationary.cob;
   [sfxtypes] {
     explosionGenerator0=custom:SMOKEPUFF_GPL_FX;
     explosionGenerator1=custom:PLACEHOLDER_EFFECT01;
@@ -45,24 +45,24 @@
     explosionGenerator8=custom:MEDIUM_MUZZLEDUST;
     explosionGenerator9=custom:MuzzleBrakeSmoke;
   }
-  script=ruszis3_stationary.cob;
   showNanoFrame=0;
-  side=JPN;
+  side=ITA;
   sightDistance=701;
   smoothAnim=0;
   stealth=1;
   useBuildingGroundDecal=1;
   badTargetCategory=FLAG;
 
-  weapon1=Type9075mmHE;
-  badTargetCategory1=OPENVEH HARDVEH INFANTRY;
+  weapon1=Ansaldo75mmL34HE;
+  badTargetCategory1=SOFTVEH;
   maxAngleDif1=70;
   onlyTargetCategory1=BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;
   weaponMainDir1=0 0 1;
 
-  weapon2=Type9075mmAP;
-  onlyTargetCategory2=OPENVEH HARDVEH LARGESHIP SHIP SOFTVEH;
+  weapon2=Ansaldo75mmL34AP;
+  badTargetCategory2=SOFTVEH;
   maxAngleDif2=70;
+  onlyTargetCategory2=OPENVEH HARDVEH;
   weaponMainDir2=0 0 1;
 }
 
