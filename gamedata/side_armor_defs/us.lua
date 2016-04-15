@@ -89,7 +89,6 @@ local USDefs = {
     "uslvta4",
   },
 
-    --**Germany**--
   unarmouredVehicles  =  {
     --US--
     "USGMCTruck",
@@ -101,6 +100,7 @@ local USDefs = {
     "USM2Gun_Truck",
     "USM5Gun_Truck",
     "uspontoontruck",
+    "usm16mgmc",
   },
 
   planes  =  {

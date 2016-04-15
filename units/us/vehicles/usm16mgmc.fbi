@@ -2,7 +2,7 @@
   unitname=USM16MGMC;
   name=M16 MGMC;
   description=Light Anti-Aircraft Halftrack;
-  acceleration=0.053;
+  acceleration=0.033;
   airSightDistance=3000;
   brakeRate=0.195;
   buildCostEnergy=0;
@@ -27,7 +27,7 @@
   maxDamage=600;
   maxReverseVelocity=2.665;
   maxSlope=6;
-  maxVelocity=5;
+  maxVelocity=4;
   maxWaterDepth=5;
   movementClass=TANK_Light;
   noChaseCategory=INFANTRY MINE BUILDING FLAG SOFTVEH AIR OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED;

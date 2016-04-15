@@ -108,7 +108,6 @@ local GERDefs = {
 
   planes  =  {
     "GERFi156",
-    --**Germany**--
     "GERBf109",
     "GERFw190",
     "GERFw190G",
