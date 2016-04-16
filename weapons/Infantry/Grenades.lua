@@ -8,7 +8,7 @@ local GrenadeClass = Weapon:New{
   id                 = 31, -- used?
   impulseFactor      = 0,
   model              = [[MortarShell.S3O]],
-  targetBorder       = 1,
+  targetBorder       = 0.5,
   tolerance          = 10000,
   turret             = true,
   --weaponTimer        = 5,
@@ -82,7 +82,7 @@ local No69 = APGrenadeClass:New{
 -- Model 24 (GER)
 local Model24 = APGrenadeClass:New{
   accuracy           = 125,
-  areaOfEffect       = 15,
+  areaOfEffect       = 19,
   edgeEffectiveness  = 0.5, -- intended?
   name               = [[Model 24 Stielhandgranate]],
   range              = 200,
