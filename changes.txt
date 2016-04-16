@@ -82,6 +82,9 @@
 - reduced nebelwerfer HP, V1 and Glider drop arc changes, planesound
 - higher molotov and flamethrower damage
 - nerf armored boats, buff 12kg bombs and antitankbomblets, nerf P40 armour, reduce kinetic damage vs armoured boats a bit, buffed ita 90mm and 75/46 according wiki and other sources
+- made semovente90 and autocannone90 20% more expensive
+- made usm16gmc mor clumsy and added it in armour defs, increased fear gain from AA, grenades do more damage vs unarmoured vehicles
+- changed some tracer colors(LaserCannon),now 47mm cost 350 command,some 75mm fieldgun changes
 
 
 Unitdef changes:
