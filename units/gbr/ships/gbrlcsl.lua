@@ -18,8 +18,8 @@ local GBR_LCSL = ArmedBoat:New{
 	turnRate				= 240,	
 	weapons = {	
 		[1] = { -- give primary weapon for ranging
-			name				= "qf6pdr57mmhe",
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			name				= "qf6pdr57mmap",
+			onlyTargetCategory	= "OPENVEH HARDVEH SHIP LARGESHIP",
 		},
 	},
 	customparams = {
