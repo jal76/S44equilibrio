@@ -48,9 +48,9 @@ local BK37mmAP = AirATGunClass:New{
   soundStart         = [[US_37mm]],
   weaponVelocity     = 1768,
   customparams = {
-    --constant penetration since aircraft engagement range can't be realistically controlled
-    armor_penetration_1000m = 50,
-    armor_penetration_100m = 70,
+    -- +5mm penetration for planespeed
+    armor_penetration_1000m = 55,
+    armor_penetration_100m = 75,
   },
   damage = {
     default            = 825,
@@ -66,7 +66,8 @@ local Ho40157mm = AirATGunClass:New{
   soundStart         = [[RUS_45mm]],
   weaponVelocity     = 918,
   customparams = {
-    armor_penetration  = 55,
+    -- +5mm penetration for planespeed
+    armor_penetration  = 60,
     damagetype         = [[shapedcharge]],
   },
   damage = {

@@ -162,8 +162,9 @@ local Ho520mmAP = AirACClass:New(AirACAPClass, true):New{
   soundStart         = [[JPN_20mmAir]],
   weaponVelocity     = 1800,
   customparams = {
-    armor_penetration_1000m  = 6,
-    armor_penetration_100m   = 28,
+    -- +5mm penetration for planespeed
+    armor_penetration_1000m  = 11,
+    armor_penetration_100m   = 33,
   },
   damage = {
     default            = 305,
