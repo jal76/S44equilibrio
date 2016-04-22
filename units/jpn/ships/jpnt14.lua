@@ -1,7 +1,7 @@
 local JPNT14 = ArmedBoat:New{
 	name					= "Type T-14 Motor Torpedo Boat",
 	description				= "Motor Torpedo Boat",
-	acceleration			= 0.3,
+	acceleration			= 0.9,
 	brakeRate				= 0.15,
 	buildCostMetal			= 1800,
 	buildTime				= 1800,
