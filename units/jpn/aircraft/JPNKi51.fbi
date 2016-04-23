@@ -50,7 +50,7 @@
   maxVelocity=13.3;
   maxWaterDepth=0;
   myGravity=0.6;
-  noChaseCategory=FLAG MINE;
+  noChaseCategory=FLAG MINE AIR INFANTRY;
   objectName=JPNKi51.s3o;
   repairable=0;
   seismicSignature=0;
