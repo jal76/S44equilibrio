@@ -3,8 +3,8 @@ local RUS_Pr161 = ArmedBoat:New{
 	description				= "Sea-going armored gunboat",
 	acceleration			= 0.05,
 	brakeRate				= 0.025,
-	buildCostMetal			= 6500,
-	buildTime				= 6500,
+	buildCostMetal			= 7000,
+	buildTime				= 7000,
 	collisionVolumeOffsets	= [[0.0 -16.0 0.0]],
 	collisionVolumeScales	= [[35.0 18.0 240.0]],
 	corpse					= "RUSPr161_dead",
@@ -51,7 +51,7 @@ local RUS_Pr161_Turret_DshK = OpenBoatTurret:New{
 		[1] = {
 			name				= "dshk",
 			onlyTargetCategory	= "INFANTRY SOFTVEH AIR OPENVEH TURRET",
-			maxAngleDif			= 180,
+			maxAngleDif			= 270,
 		},
 	},
 	customparams = {
