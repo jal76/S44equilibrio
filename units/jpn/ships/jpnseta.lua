@@ -20,7 +20,7 @@ local JPN_Seta = ArmedBoat:New{
 	weapons = {	
 		[1] = { -- give primary weapon for ranging
 			name				= "Type376mmL40HE",
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 	},
 	customparams = {
@@ -56,7 +56,7 @@ local JPN_Seta_Turret_76mm_Front = PartiallyEnclosedBoatTurret:New{
 		[1] = {
 			name				= "Type376mmL40HE",
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 	},
 	customparams = {
@@ -106,13 +106,13 @@ local JPN_Seta_Turret_25mm = OpenBoatTurret:New{
 			name				= "Type9625mmHE",
 			mainDir		= [[0 0 -1]],
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 		[4] = {
 			name				= "Type9625mmHE",
 			mainDir		= [[0 0 -1]],
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 			slaveTo				= 3,
 		},
 	},

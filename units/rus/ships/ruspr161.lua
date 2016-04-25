@@ -19,7 +19,7 @@ local RUS_Pr161 = ArmedBoat:New{
 	weapons = {	
 		[1] = { -- give primary weapon for ranging
 			name				= "S5385mmHE",
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 	},
 	customparams = {
@@ -70,7 +70,7 @@ local RUS_Pr161_Turret_85mm_Front = EnclosedBoatTurret:New{
 		[1] = {
 			name				= "S5385mmHE",
 			maxAngleDif			= 300,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 	},
 	customparams = {

@@ -19,7 +19,7 @@ local GER_MAL = ArmedBoat:New{
 	weapons = {	
 		[1] = { -- give primary weapon for ranging
 			name				= "sk88mmc30",
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 	},
 	customparams = {
@@ -45,7 +45,7 @@ local GER_MAL_Turret_105mm = PartiallyEnclosedBoatTurret:New{ --
 		[1] = {
 			name				= "sk88mmc30",
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 	},
 	customparams = {
@@ -91,24 +91,24 @@ local GER_MAL_Turret_Quad20mm = OpenBoatTurret:New{
 		[5] = {
 			name				= "flak3820mmhe",
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 		[6] = {
 			name				= "flak3820mmhe",
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 			slaveTo				= 5,
 		},
 		[7] = {
 			name				= "flak3820mmhe",
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 			slaveTo				= 5,
 		},
 		[8] = {
 			name				= "flak3820mmhe",
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 			slaveTo				= 5,
 		},
 	},
@@ -137,7 +137,7 @@ local GER_MAL_Turret_37mm = OpenBoatTurret:New{
 		},
 		[2] = {
 			name				= "flak4337mmhe",
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 			maxAngleDif			= 270,
 		},
 	},

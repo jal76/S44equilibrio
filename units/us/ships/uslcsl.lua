@@ -19,7 +19,7 @@ local US_LCSL = ArmedBoat:New{
 	weapons = {	
 		[1] = { -- give primary weapon for ranging
 			name				= "mk223in50",
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 	},
 	customparams = {
@@ -64,13 +64,13 @@ local US_LCSL_Turret_TwinBofors_Front = OpenBoatTurret:New{
 			name				= "bofors40mmhe",
 			mainDir		= [[0 0 -1]],
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 		[4] = {
 			name				= "bofors40mmhe",
 			mainDir		= [[0 0 -1]],
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 			slaveTo				= 3,
 		},
 	},
@@ -115,12 +115,12 @@ local US_SC_Turret_76mm = OpenBoatTurret:New{
 		[1] = {
 			maxAngleDif			= 270,
 			name				= "mk223in50",
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 		[2] = {
 			maxAngleDif			= 270,
 			name				= "mk223in50smoke",
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY",
 		},
 	},
 	customparams = {

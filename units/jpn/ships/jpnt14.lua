@@ -19,7 +19,7 @@ local JPNT14 = ArmedBoat:New{
 	weapons = {	
 		[1] = {
 			name				= "Type9625mmHE",
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 	},
 	customparams = {
@@ -44,7 +44,7 @@ local JPNT14_Turret_25mm = OpenBoatTurret:New{
 		},
 		[2] = {
 			name				= "Type9625mmHE",
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 	},
 	customparams = {

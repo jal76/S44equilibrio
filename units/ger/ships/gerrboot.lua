@@ -20,7 +20,7 @@ local GER_RBoot = ArmedBoat:New{
 	weapons = {	
 		[1] = { -- give primary weapon for ranging
 			name				= "FlaK37mmSKC30HE",
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 	},
 	customparams = {
@@ -45,7 +45,7 @@ local GER_RBoot_Turret_37mm = OpenBoatTurret:New{
 		[1] = {
 			name				= "FlaK37mmSKC30HE",
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 		},
 	},
 	customparams = {
@@ -74,7 +74,7 @@ local GER_RBoot_Turret_20mm = OpenBoatTurret:New{
 		[2] = {
 			name				= "flak3820mmhe",
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 			mainDir		= [[0 0 -1]],
 		},
 	},
@@ -105,7 +105,7 @@ local GER_RBoot_Turret_MG42 = OpenBoatTurret:New{
 		[2] = {
 			name				= "MG42_Deployed",
 			maxAngleDif			= 100,
-			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED",
+			onlyTargetCategory	= "BUILDING INFANTRY SOFTVEH OPENVEH HARDVEH SHIP LARGESHIP DEPLOYED TURRET",
 			mainDir		= [[0 0 1]],
 		},
 	},

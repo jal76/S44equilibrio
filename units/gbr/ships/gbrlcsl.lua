@@ -19,7 +19,7 @@ local GBR_LCSL = ArmedBoat:New{
 	weapons = {	
 		[1] = { -- give primary weapon for ranging
 			name				= "qf6pdr57mmap",
-			onlyTargetCategory	= "OPENVEH HARDVEH SHIP LARGESHIP",
+			onlyTargetCategory	= "OPENVEH HARDVEH SHIP LARGESHIP TURRET",
 		},
 	},
 	customparams = {
@@ -98,7 +98,7 @@ local GBR_LCSL_Turret_6pdr = EnclosedBoatTurret:New{
 		[2] = {
 			name				= "qf6pdr57mmap",
 			maxAngleDif			= 270,
-			onlyTargetCategory	= "OPENVEH HARDVEH SHIP LARGESHIP",
+			onlyTargetCategory	= "OPENVEH HARDVEH SHIP LARGESHIP TURRET",
 		},
 	},
 	customparams = {
