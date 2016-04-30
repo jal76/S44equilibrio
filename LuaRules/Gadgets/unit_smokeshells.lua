@@ -346,7 +346,7 @@ function gadget:GameFrame(n)
 		end
 		-- process smoke generator cooldown
 		for id, duration in pairs(SmokeGenCooldowns) do
-			if (SmokeGenCooldowns[id] or 0) > 0 then
+			if (SmokeGenCooldowns[id]) > 0 then
 				SmokeGenCooldowns[id] = SmokeGenCooldowns[id] - 1
 				-- enable/disable command
 				local smokegenReady = true
