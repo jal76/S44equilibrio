@@ -24,11 +24,6 @@ local JPN_Seta = ArmedBoat:New{
 		},
 	},
 	customparams = {
-		smokegenerator		=	1,
-		smokeradius		=	400,
-		smokeduration		=	320,
-		smokecooldown		=	130,
-		smokeceg		=	"SMOKESHELL_Medium",
 		soundcategory = "JPN/Boat",
 		children = {
 			"JPN_Seta_turret_76mm_front",
