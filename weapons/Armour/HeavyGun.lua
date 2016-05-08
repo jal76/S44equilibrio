@@ -150,7 +150,7 @@ local Type38150mmL11HE = Type38150mmL11:New(HeavyGunHEClass, true):New{
   areaOfEffect       = 165,
   soundHitDry        = [[GEN_Explo_6]],
   damage = {
-    default            = 8500,
+    default            = 9350,
   },
 }
 local Type38150mmL11Smoke = Type38150mmL11:New(HeavyGunSmokeClass, true)

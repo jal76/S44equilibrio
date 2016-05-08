@@ -12,7 +12,6 @@ local BombClass = Weapon:New{
   targetBorder		= 1,
   reloadtime         = 600,
   tolerance          = 5000,
-  trajectoryHeight   = 0,
   turret             = true,
   weaponType         = [[Cannon]],
   weaponVelocity     = 200,
@@ -24,7 +23,7 @@ local BombClass = Weapon:New{
 }
 -- Delayedbomb
 local BasebombClass = BombClass:New{
-  accuracy           = 500,
+  accuracy           = 2000,
   commandfire        = true,
   groundBounce	     = true,
   burnblow	     = false,
@@ -67,7 +66,8 @@ local Bomb50kg = BombClass:New{
   name               = [[50kg Bomb]],
   model              = [[Bomb_Medium.S3O]],
   size		     = 1,
-  accuracy           = 240,	
+  accuracy           = 200,
+  tolerance          = 600,	
   areaOfEffect       = 76,
   heightMod		= 0.2,
   mygravity	= 0.05,
@@ -75,10 +75,9 @@ local Bomb50kg = BombClass:New{
     default            = 7500,
 	planes		= 5,
     },
-  range              = 100,
+  range              = 150,
   explosionGenerator = [[custom:HE_Large]],
   soundHit           = [[GEN_Explo_5]],
-  tolerance          = 1000,
 }
 
 -- V1 Missile Explosions (GER)

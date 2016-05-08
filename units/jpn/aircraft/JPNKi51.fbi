@@ -6,8 +6,8 @@
   radarDistance=1000;
   brakeRate=5;
   buildCostEnergy=0;
-  buildCostMetal=2175;
-  buildTime=2175;
+  buildCostMetal=1700;
+  buildTime=1700;
   canAttack=1;
   moveState=1;
   fireState=2;
