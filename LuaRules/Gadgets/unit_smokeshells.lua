@@ -210,7 +210,7 @@ function ApplySmoke(unitID)
 
 	SetUnitRulesParam(unitID, "smoked", 1)
 	-- make the unit blind
-	SetUnitSensorRadius(unitID, "los", 0)
+	SetUnitSensorRadius(unitID, "los", 190)
 	SetUnitSensorRadius(unitID, "radar", 0)
 	SetUnitSensorRadius(unitID, "airLos", 0)
 	SetUnitSensorRadius(unitID, "seismic", 0)
