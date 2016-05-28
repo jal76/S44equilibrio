@@ -313,6 +313,7 @@ local Twin_DShK = DShK:New{
 local BeresinUBS = HeavyMGClass:New{
   reloadTime         = 0.7,
   name               = [[BeresinUBS 12.7mm Machine Gun]],
+  range             = 890,
   burst             = 6,
   burstRate         = 0.088,
   sprayAngle        = 1050,
